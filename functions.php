@@ -16,9 +16,9 @@
         $message = $_POST['message'];
         $datetime = date('Y-m-d h:i:sa');
         $ip = $_SERVER['REMOTE_ADDR'];
-        // $browser = get_browser();
-        // $client = $browser->browser;
-        // $os = $browser->platform;
+        $browser = get_browser(null, true);
+        $client = strval($browser['browser']);
+        $os = strval($browser['platform']);
 
         $table = 'contacts';
         $data = array(
@@ -28,11 +28,11 @@
             'phone' => $phone,
             'message' => $message,
             'datetime' => $datetime,
-            'ip_address' => $ip
-            // 'browser' => $client,
-            // 'operating_system' => $os
+            'ip_address' => $ip,
+            'browser' => $client,
+            'operating_system' => $os
         );
-        $format = array('%s','%s','%s','%s','%s','%s','%s');
+        $format = array('%s','%s','%s','%s','%s','%s','%s','%s','%s');
 
         global $wpdb;
         $wpdb->insert($table, $data, $format);
