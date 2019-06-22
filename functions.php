@@ -27,12 +27,7 @@
         // Connection
         $con = mysqli_connect('localhost:3306', 'root', 'themorganbillingsleywpdbuser19', 'blog');
         // Check connection
-        if (mysqli_connect_errno()) {
-            error_log('Failed to connect to database.', 0);
-        } else {
-            if (mysqli_query($con, $sql)) {}
-            else {error_log('Failed to insert post data into contacts', 0);}
-        }
+        mysqli_query($con, $sql);
 
         // Redirect to homepage
         wp_redirect('http://morganbillingsley.com/');
