@@ -16,27 +16,26 @@
         $message = $_POST['message'];
         $datetime = date('Y-m-d h:i:sa');
         $ip = $_SERVER['REMOTE_ADDR'];
-        $browser = get_browser(NULL, TRUE);
-        $client = $browser['parent'];
-        $os = $browser['platform'];
+        $browser = get_browser();
+        $client = $browser->browser;
+        $os = $browser->platform;
 
         $table = 'contacts';
+        $data = array(
+            'first_name' => $fname,
+            'last_name' => $lname,
+            'email' => $email,
+            'phone' => $phone,
+            'message' => $message,
+            'datetime' => $datetime,
+            'ip_address' => $ip,
+            'browser' => $client,
+            'operating_system' => $os
+        );
+        $format = array('%s','%s','%s','%s','%s','%s','%s','%s','%s');
 
         global $wpdb;
-        $wpdb->insert(
-            $table,
-            array(
-                'first_name' => $fname,
-                'last_name' => $lname,
-                'email' => $email,
-                'phone' => $phone,
-                'message' => $message,
-                'datetime' => $datetime,
-                'ip_address' => $ip,
-                'browser' => $client,
-                'operating_system' => $os
-            )
-        );
+        $wpdb->insert($table, $data, $format);
 
         // Redirect to homepage
         wp_redirect('http://morganbillingsley.com/');
