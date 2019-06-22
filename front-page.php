@@ -5,8 +5,8 @@
                 <div class="container nopadding">
                     <div class="col-md-12 center">
                         <div class="hero-content">
-                            <h1 class="wow fadeInUp" data-wow-delay="0.1s">Morgan Billingsley Website Design</h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Building powerful, interactive websites using advanced technology <br class="hidden-xs">and expert design techniques.</p>
+                            <h1 class="wow fadeInUp" data-wow-delay="0.1s">Morgan Billingsley Software Development</h1>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Building powerful, interactive applications using advanced technology <br class="hidden-xs">and expert design.</p>
                             <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Build My Site</button>
                         </div>
                     </div>
