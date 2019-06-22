@@ -1,4 +1,4 @@
-<?php header(); ?>
+<?php get_header(); ?>
     <div class="main app form" id="main">
         <div class="image-bg">
             <div class="hero-section">
@@ -266,4 +266,4 @@
                     </div>
                 </div>
             </div>
-            <?php footer(); ?>
+            <?php get_footer(); ?>
