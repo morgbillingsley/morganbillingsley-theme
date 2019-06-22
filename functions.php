@@ -35,8 +35,7 @@
                 'ip_address' => $ip,
                 'browser' => $client,
                 'operating_system' => $os
-            ),
-            array('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')
+            )
         );
 
         // Redirect to homepage
