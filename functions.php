@@ -16,15 +16,11 @@
         $message = $_POST['message'];
         $datetime = date('Y-m-d h:i:sa');
         $ip = $_SERVER['REMOTE_ADDR'];
-        $browser = get_browser();
+        $browser = get_browser(null, true);
+        $browser = implode(',', $browser);
 
-        // Write Query
         $table = 'contacts';
-        $columns = 'first_name, last_name, email, phone, message, datetime, ip_address, browser_data';
-        $values = "{$fname}, {$lname}, {$email}, {$phone}, {$message}, {$datetime}, {$ip}, {$browser}";
-        $sql = "INSERT INTO contacts ({$columns}) VALUES ({$values})";
 
-        // Connection
         global $wpdb;
         $wpdb->insert(
             $table,
