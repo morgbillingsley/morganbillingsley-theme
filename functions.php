@@ -37,7 +37,25 @@
         global $wpdb;
         $wpdb->insert($table, $data, $format);
 
+        // Send notification
+        $message = "A new contact form was submitted by {$fname} {$lname}.";
+
         // Redirect to homepage
         wp_redirect('http://morganbillingsley.com/');
+    }
+    
+    function pushover($message) {
+        $params = array(
+            "token" => "aso8szzsjrbjswfo9w6n81qsxb5chf",
+            "user" => "u4r33u7gk4txdjfcv1m2qxjnwrmag4",
+            "message" => $message
+        );
+        $po = curl_init("https://api.pushover.net/1/messages.json");
+        curl_setopt($po, CURLOPT_POSTFIELDS, $params);
+        $result = curl_exec($po);
+        if (curl_errno($po)) {
+            error_log('Failed to send pushover notification');
+        }
+        curl_close($po);
     }
 ?>

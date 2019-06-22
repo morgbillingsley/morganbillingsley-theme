@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116911191-3"></script>
@@ -13,6 +13,7 @@
     <!-- Google Analytics -->
 
     <meta charset="<?php bloginfo('charset'); ?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>
         <?php bloginfo('name'); ?> |
         <?php is_front_page() ? bloginfo('description') : wp_title(); ?>
@@ -44,6 +45,7 @@
         fbq('init', '2254829784768274');
         fbq('track', 'PageView');
     </script>
+    <?php wp_head(); ?>
 </head>
 <body>
     <!-- Facebook Pixel Code -->
