@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php header(); ?>
     <div class="main app form" id="main">
         <div class="image-bg">
             <div class="hero-section">
@@ -45,7 +45,7 @@
                 <div class="col-md-4">
                     <div class="table">
                         <div class="tablecell">
-                            <img class="img-responsive" src="<?php get_bloginfo('template_url'); ?>/images/app_signup.png" alt="App" />
+                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/app_signup.png" alt="App" />
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
 
         <div class="split-features">
             <div class="col-md-6 nopadding">
-                <div class="split-image"> <img class="img-responsive wow fadeIn" src="<?php get_bloginfo('template_url'); ?>/images/app_image.jpeg" alt="Image" /></div>
+                <div class="split-image"> <img class="img-responsive wow fadeIn" src="<?php bloginfo('template_url'); ?>/images/app_image.jpeg" alt="Image" /></div>
             </div>
             <div class="col-md-6 nopadding">
                 <div class="split-content">
@@ -96,7 +96,7 @@
                 </div>
             </div>
             <div class="col-md-6 nopadding">
-                <div class="split-image"> <img class="img-responsive wow fadeIn" src="<?php get_bloginfo('template_url'); ?>/images/app_image2.jpeg" alt="Image" /></div>
+                <div class="split-image"> <img class="img-responsive wow fadeIn" src="<?php bloginfo('template_url'); ?>/images/app_image2.jpeg" alt="Image" /></div>
             </div>
         </div>
 
@@ -134,7 +134,7 @@
                 <div class="container">
                     <div class="col-md-10 col-md-offset-1">
                         <div class="reviews owl-carousel owl-theme">
-                            <div class="review-single"><img class="img-circle" src="<?php get_bloginfo('template_url'); ?>/images/me.jpeg" alt="Client Testimonoal" />
+                            <div class="review-single"><img class="img-circle" src="<?php bloginfo('template_url'); ?>/images/me.jpeg" alt="Client Testimonoal" />
                                 <div class="review-text wow fadeInUp" data-wow-delay="0.2s">
                                     <p>Morgan is the founder and president of Morgan Billingsley Website Design <br> email him at morgan@morganbillingsley.com or call at (208) 918-2941</p>
                                     <h3>Morgan Billingsley</h3>
@@ -266,4 +266,4 @@
                     </div>
                 </div>
             </div>
-            <?php get_footer(); ?>
+            <?php footer(); ?>

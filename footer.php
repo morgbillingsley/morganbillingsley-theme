@@ -20,12 +20,12 @@
     </div>
 
     <!-- Jquery and Js Plugins -->
-    <script type="text/javascript" src="<?php get_bloginfo('template_url'); ?>/js/jquery-2.1.1.js"></script>
-    <script type="text/javascript" src="<?php get_bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
 
-    <script type="text/javascript" src="<?php get_bloginfo('template_url'); ?>/js/plugins.js"></script>
-    <script type="text/javascript" src="<?php get_bloginfo('template_url'); ?>/js/menu.js"></script>
-    <script type="text/javascript" src="<?php get_bloginfo('template_url'); ?>/js/custom.js"></script>
-    <script src="<?php get_bloginfo('template_url'); ?>/js/jquery.subscribe.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/plugins.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/menu.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/custom.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery.subscribe.js"></script>
 </body>
 </html>

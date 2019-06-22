@@ -12,21 +12,24 @@
     </script>
     <!-- Google Analytics -->
 
-    <meta charset="utf-8">
-    <title>Morgan Billingsley Web Design</title>
-    <link rel="icon" href="<?php get_bloginfo('template_url'); ?>/images/emblem_circle.png" type="image/png" sizes="16x16">
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <title>
+        <?php bloginfo('name'); ?> |
+        <?php is_front_page() ? bloginfo('description') : wp_title(); ?>
+    </title>
+    <link rel="icon" href="<?php bloginfo('template_url'); ?>/images/emblem_circle.png" type="image/png" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Morgan Billingsley Web Design">
+    <meta name="description" content="<?php bloginfo('description'); ?>">
     <meta name="keywords" content="Website Design, Web Design, Morgan Billingsley, Web App, Build My Website, Website Builder">
-    <link href="<?php get_bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="<?php get_bloginfo('template_url'); ?>/css/animate.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.css">
     <!-- Resource style -->
-    <link rel="stylesheet" href="<?php get_bloginfo('template_url'); ?>/css/owl.carousel.css">
-    <link rel="stylesheet" href="<?php get_bloginfo('template_url'); ?>/css/owl.theme.css">
-    <link rel="stylesheet" href="<?php get_bloginfo('template_url'); ?>/css/ionicons.min.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.carousel.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.theme.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/ionicons.min.css">
     <!-- Resource style -->
-    <link href="<?php get_bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" media="all" />
+    <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" media="all" />
 
     <!-- Facebook Pixel Code -->
     <script>
