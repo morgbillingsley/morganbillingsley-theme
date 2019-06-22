@@ -4,6 +4,7 @@
 
     // Hooks
     add_action('admin_post_nopriv_contact', 'contact_proc');
+    add_action('admin_post_contact', 'contact_proc');
 
     // Functions
     function contact_proc() {
