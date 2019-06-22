@@ -22,12 +22,24 @@
         $table = 'contacts';
         $columns = 'first_name, last_name, email, phone, message, datetime, ip_address, browser_data';
         $values = "{$fname}, {$lname}, {$email}, {$phone}, {$message}, {$datetime}, {$ip}, {$browser}";
-        $sql = "INSERT INTO 'contacts' ('first_name', 'last_name', 'email', 'phone', 'message', 'datetime', 'ip_address', 'browser_data') VALUES (".$fname.", ".$lname.", ".$email.", ".$phone.", ".$message.", ".$datetime.", ".$ip.", ".$browser.")";
+        $sql = "INSERT INTO contacts ({$columns}) VALUES ({$values})";
 
         // Connection
-        $con = mysqli_connect('localhost:3306', 'wordpress', 'themorganbillingsleywpdbuser19', 'blog');
-        // Check connection
-        mysqli_query($con, $sql);
+        global $wpdb;
+        $wpdb->insert(
+            $table,
+            array(
+                'first_name' => $fname,
+                'last_name' => $lname,
+                'email' => $email,
+                'phone' => $phone,
+                'message' => $message,
+                'datetime' => $datetime,
+                'ip_address' => $ip,
+                'browser_data' => $browser
+            ),
+            array('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')
+        );
 
         // Redirect to homepage
         wp_redirect('http://morganbillingsley.com/');
