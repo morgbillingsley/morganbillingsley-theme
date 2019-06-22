@@ -635,7 +635,7 @@ font-family: Arial;
 
 
 .image-bg .hero-section {
-	background: url(/images/header-bg.png) no-repeat center center;
+	background: url("/images/header-bg.png") no-repeat center center;
 	background-size: cover;
 	padding: 150px 0 100px 0;
 }
