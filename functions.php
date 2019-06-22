@@ -16,8 +16,8 @@
         $message = $_POST['message'];
         $datetime = date('Y-m-d h:i:sa');
         $ip = $_SERVER['REMOTE_ADDR'];
-        $browser = get_browser(null, true);
-        $browser = implode(',', $browser);
+        $brow_data = get_browser(null, true);
+        $browser = implode(',', $brow_data);
 
         $table = 'contacts';
 
