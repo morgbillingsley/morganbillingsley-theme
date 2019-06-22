@@ -515,7 +515,7 @@ p {
 
 .software .btn-action {
 font-family: Arial;
- background-color: #≈;
+ background-color: #3c78d8;
  border: 1px solid #3c78d8;
  border-radius: 50px;
  color: #FFFFFF;
@@ -550,7 +550,7 @@ font-family: Arial;
 /*---------------- Form Home Styling ------------------- */
 
 .form .hero-section {
-	background-image: url("http://35.197.96.222.com/images/header-bg.jpg");
+	background-image: url("http://morganbillingsley.com/images/header-bg.jpg");
 	background-size: cover;
 	padding: 150px 0 0 0;
 }
