@@ -18,6 +18,8 @@
             <a id="back-top" class="back-to-top page-scroll" href="#main"> <i class="ion-ios-arrow-thin-up"></i></a>
         </div>
     </div>
+    
+    <?php wp_footer(); ?>
 
     <!-- Jquery and Js Plugins -->
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.1.js"></script>
