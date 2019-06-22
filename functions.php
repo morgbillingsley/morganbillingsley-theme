@@ -17,7 +17,7 @@
         $datetime = date('Y-m-d h:i:sa');
         $ip = $_SERVER['REMOTE_ADDR'];
         $browser = get_browser(null, true);
-        $client = strval($browser['browser']);
+        $client = strval($browser['parent']);
         $os = strval($browser['platform']);
 
         $table = 'contacts';
