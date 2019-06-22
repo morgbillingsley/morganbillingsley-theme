@@ -16,8 +16,9 @@
         $message = $_POST['message'];
         $datetime = date('Y-m-d h:i:sa');
         $ip = $_SERVER['REMOTE_ADDR'];
-        $brow_data = get_browser(NULL, TRUE);
-        $browser = implode(',', $brow_data);
+        $browser = get_browser(NULL, TRUE);
+        $client = $browser['parent'];
+        $os = $browser['platform'];
 
         $table = 'contacts';
 
@@ -32,9 +33,10 @@
                 'message' => $message,
                 'datetime' => $datetime,
                 'ip_address' => $ip,
-                'browser_data' => $browser
+                'browser' => $client,
+                'operating_system' => $os
             ),
-            array('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')
+            array('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')
         );
 
         // Redirect to homepage
