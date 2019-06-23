@@ -17,13 +17,13 @@
                         <label for="email">Email</label>
                         <input type="email" class="form-control" name="email">
                     </div>
-                    <div class="form-inline">
                         <div class="form-group">
                             <label for="phone">Phone</label>
-                            <div class="input-group-addon">+1</div>
-                            <input type="text" class="form-control" name="phone">
+                            <div class="input-group">
+                                <div class="input-group-addon">+1</div>
+                                <input type="text" class="form-control" name="phone">
+                            </div>
                         </div>
-                    </div>
                     <div class="form-group">
                         <label for="message">Message</label>
                         <textarea name="message" class="form-control" rows="5"></textarea>
