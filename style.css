@@ -497,57 +497,6 @@ p {
  border-color: #3c78d8;
 }
 
-
-/* ----------- App Home ---------*/
-
-.software .hero-section {
-	padding: 100px 0 0 0;
-	background: #F9F9F9;
-}
-
-.software .hero-content h1 {
-	font-size: 34px;
-	font-weight: 600;
-	color: #444444;
-	margin: 0 0 20px 0;
-}
-
-
-
-.software .btn-action {
-font-family: Arial;
- background-color: #3c78d8;
- border: 1px solid #3c78d8;
- border-radius: 50px;
- color: #FFFFFF;
- font-size: 13px;
- font-weight: 600;
- letter-spacing: 2px;
- line-height: 1;
- padding: 12px 24px;
- text-transform: uppercase;
- outline: none;
- -webkit-transition: 200ms;
- -moz-transition: 200ms;
- -o-transition: 200ms;
- transition: 200ms;
-}
-
-.software .btn-action:hover, .software .btn-action:focus,
-.software .btn-action:active, .software .btn-action:active:focus {
- background: transparent;
- outline: none;
- color: #3c78d8;
- background: transparent;
- border-color: #3c78d8;
-}
-
-.software .hero-section img {
-	margin: 0 auto;
-}
-
-
-
 /*---------------- Form Home Styling ------------------- */
 
 .form .hero-section {
@@ -639,128 +588,9 @@ font-family: Arial;
 	background-size: cover;
 	padding: 150px 0 100px 0;
 }
-/* ------------ Signup Hero Section ------------ */
-
-.signup .hero-section {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url("images/app_bg.jpg") no-repeat center center;
-	background-size: cover;
-	padding: 150px 0 100px 0;
-}
-
-.signup .hero-content {
-	padding: 50px 0 100px 0;
-}
-
-.signup .hero-content h1 {
-	font-size: 34px;
-	font-weight: 600;
-	color: #FFFFFF;
-	line-height: 1.2;
-	letter-spacing: 0;
-}
-
-.signup .hero-content p {
-	color: #FFFFFF;
-}
-
-.signup-form {
-	padding: 25px 25px 30px 25px;
-	background: #1eb858;
-	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
-	text-align: left;
-}
-
-.signup-form h1 {
-	font-weight: 600;
-	font-size: 24px;
-	color: #FFFFFF;
-	letter-spacing: 0;
-	line-height: 1.4;
-	text-transform: capitalize;
-	text-align: center;
-	margin: 20px 0 30px 0;
-}
-
-.signup-form form textarea {
-	height: 100px;
-}
-
-.signup-form form .input-error {
-	border-color: #19b9e7;
-}
-
-.signup-form p {
-	font-family: Open Sans;
-	font-size: 12px;
-	color: #DDDDDD;
-	margin: 25px 0 10px 0;
-}
-
-.form-group {
-	margin-bottom: 20px;
-}
-
-
-.signup .btn-action.btn-round {
-	background: #3c78d8;
-	border-color: #3c78d8;
-	color: #FFFFFF;
-	font-size: 15px;
-	padding: 12px 24px;
-	font-weight: 600;
-	text-transform: capitalize;
-	border: 2px solid #3c78d8;
-	border-radius: 30px;
-}
-
-.signup .btn-action.btn-round:hover, .signup .btn-action.btn-round:focus {
-	background: transparent;
-	color: #1eb858;
-	border-color: #1eb858;
-}
-
-
-.signup .btn-action {
-	background: #3c78d8;
-	border-color: #3c78d8;
-	color: #FFFFFF;
-}
-
-.signup .btn-action:hover {
-	background: transparent;
-	border-color: #1eb858;
-	color: #1eb858;
-}
-
-
-
-input[type="text"],
-textarea,
-textarea.form-control {
-	height: 45px;
-    margin: 0;
-    padding: 0 20px;
-    vertical-align: middle;
-    background: #F8F8F8;
-    border: 1px solid #DDDDDD;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 50px;
-    color: #888888;
-    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
-    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
-    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
-}
-
-textarea,
-textarea.form-control {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	line-height: 30px;
-}
 
 input[type="text"]:focus,
+input[type="email"]:focus,
 textarea:focus,
 textarea.form-control:focus {
 	outline: 0;
@@ -769,118 +599,13 @@ textarea.form-control:focus {
     -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
 }
 
-input[type="text"]:-moz-placeholder, textarea:-moz-placeholder, textarea.form-control:-moz-placeholder { color: #888; }
-input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder, textarea.form-control:-ms-input-placeholder { color: #888; }
-input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder, textarea.form-control::-webkit-input-placeholder { color: #888; }
+input[type="text"]:-moz-placeholder, input[type="email"]:-moz-placeholder, textarea:-moz-placeholder, textarea.form-control:-moz-placeholder { color: rgb(85, 85, 85); }
+input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder, textarea.form-control:-ms-input-placeholder { color: rgb(85, 85, 85); }
+input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder, textarea.form-control::-webkit-input-placeholder { color: rgb(85, 85, 85); }
 
+@media only screen and (max-width: 991px) {}
 
-
-.signup-form button.btn {
-	height: 45px;
-    margin: 0;
-    padding: 0 20px;
-    vertical-align: middle;
-    background: #111111;
-    border: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 45px;
-    color: #FFFFFF;
-		text-transform: uppercase;
-    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
-    text-shadow: none;
-    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
-    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
-}
-
-.signup-form button.btn:hover {
-	 opacity: 0.6; color: #FFFFFF;
- }
-
-.signup-form button.btn:active {
-	 outline: 0;
-	 opacity: 0.6;
-	 color: #FFFFFF;
-	 -moz-box-shadow: none;
-	 -webkit-box-shadow: none;
-	 box-shadow: none;
- }
-
-.signup-form button.btn:focus {
-	outline: 0;
-	opacity: 0.6;
-	background: #19b9e7;
-	color: #fff;
-}
-
-.signup-form button.btn:active:focus, button.btn.active:focus {
-	outline: 0;
-	opacity: 0.6;
-	background: #19b9e7;
-	color: #fff;
-}
-
-@media only screen and (max-width: 991px) {
-	.signup-form {
-		max-width: 500px;
-		margin: 0 auto;
-	}
-}
-
-
-/*-------------------------------------------------------
----------------- Slider Section Styling -----------------
---------------------------------------------------------*/
-
-.slider-pro .sp-slide {
-	background: #222222;
-}
-
-.slider-pro h2.sp-layer {
-	font-size: 44px !important;
-	color: #111111;
-	font-weight: bold;
-	letter-spacing: -1px;
-	line-height: 1.3;
-	text-align: left;
-}
-
-.slider-pro p.sp-layer {
-	font-size: 16px;
-	color: #A1A1A1;
-	line-height: 1.4;
-}
-
-.slider-pro a {
-	text-decoration: none;
-	color: #444444;
-	-webkit-transition: 0.5s !important;
-	-moz-transition: 0.5s !important;
-	transition: 0.5s !important;
-}
-
-.slider-pro .link-color {
-	text-decoration: none;
-	color: #111;
-	-webkit-transition: 0.5s !important;
-	-moz-transition: 0.5s !important;
-	transition: 0.5s !important;
-}
-
-.slider-pro a:hover {
-	color: #999999;
-}
-
-
-
-@media only screen and (max-width: 768px) {
-
-	.slider-pro h2.sp-layer {
-		font-size: 34px !important;
-
-	}
-}
+@media only screen and (max-width: 768px) {}
 
 
 /* -----------------------------------------------------
@@ -898,40 +623,6 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .app img {
 	margin: 0 auto;
-}
-
-
-.app-info h1 {
-  font-size: 34px;
-  font-weight: 600;
-  color: #404040;
-  margin-top: 30px !important;
-}
-
-.app-info h4 {
-  font-family: Open Sans;
-  font-size: 16px;
-  font-weight: 300;
-  color:  #3C4B5D;
-	line-height: 1.4;
-  margin-top: 20px;
-}
-
-.app-info i {
-	margin-top: 15px;
-	display: inline-block;
-}
-
-.app-info span {
-  font-family: Open Sans;
-  font-size: 12px;
-  font-weight: 400;
-  color: #222222;
-}
-
-.app-info .ion {
-  font-size: 1em;
-  color: #ff8000;
 }
 
 .download-buttons {
@@ -957,85 +648,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	border-color: #3c78d8;
 }
 
-
-
-/*----------------------------------------------------
--------------- Split Home Coming Soon ----------------
------------------------------------------------------*/
-
-
-.cs-main .left-section {
-		background-color: #F2F2F2;
-		position: absolute;
-    left: 0;
-		right: 0;
-		top: 0;
-		bottom: 0;
-    width: 50%;
-		height: 100%;
-		overflow: hidden;
-    z-index: 1;
-}
-
-.cs-main .right-section {
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-		padding: 0 20px 0 20px;
-		width: 50%;
-		height: 100%;
-    background: #FFFFFF;
-    z-index: 99;
-    overflow: hidden;
-    overflow-y: auto;
-}
-
-.cs-main .hero-section {
-	padding: 120px 0 0 0;
-	background: #FFFFFF !important;
-}
-
-.cs-main .hero-content {
-	padding: 50px 0 0 0;
-}
-
-.cs-main .app-info h1 {
-	font-weight: 600;
-	font-size: 42px;
-}
-
-.cs-main .left-section {
-	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("images/split-bg.jpg") no-repeat center center;
-	background-size: cover;
-}
-
-
-@media only screen and (max-width : 801px) {
-
-	 .cs-main .right-section{
-			position: relative;
-			width: 100%;
-	}
-
-	.cs-main .hero-section {
-		padding: 50px 0 0 0;
-	}
-
-
-	 .cs-main .left-section{
-			position: relative;
-			width: 100%;
-			min-height: 100vh;
-	}
-}
-
-
-
-
-/*-------------------------------------------------
------------ About Section Styling Starts ----------
---------------------------------------------------*/
+@media only screen and (max-width : 801px) {}
 
 .about {
 	padding: 100px 0 100px 0;
@@ -1063,25 +676,6 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	text-transform: capitalize;
 	color: #111111;
 	margin: 50px 0 0 0;
-}
-
-
-
-/* ----- Client Sectiion Styling ----- */
-
-.client-section {
-	background-color: #1eb858;
-	padding: 5px 0 0 0;
-}
-
-.clients .single {
-	padding: 25px 0 25px 0;
-}
-
-.clients .single img {
-	-webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-		opacity: 0.6;
 }
 
 
@@ -1117,104 +711,6 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	line-height: 1.5;
 	color: #A1A1A1;
 	letter-spacing: 0;
-}
-
-.pitch-icon {
-	margin: 0 0 10px 0;
-	background: #1eb858;
-	width: 60px;
-	height: 60px;
-	display: inline-block;
-	border-radius: 50%;
-}
-
-.pitch-icon i {
-	font-size: 34px;
-	color: #FFFFFF;
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 13px;
-}
-
-.pitch-content {
-	padding: 10px 0 50px 0;
-}
-
-.pitch-content h1 {
-	font-size: 21px;
-	font-weight: 600;
-	line-height: 1.2;
-	letter-spacing: 0;
-	color: #454545;
-	margin: 0 0 10px 0;
-}
-
-.pitch-content p {
-	font-family: 'Open Sans';
-	font-size: 14px;
-	line-height: 1.5;
-	color: #A1A1A1;
-	letter-spacing: 0;
-}
-
-
-/*----------------------------------------------------
------------ Features Icon Styling Starts -------------
------------------------------------------------------*/
-
-.icon-features {
-	padding: 100px 0 0 0;
-}
-
-.icon-features-intro {
-	padding: 0 0 50px 0;
-}
-
-.icon-features-intro h1 {
-	font-size: 34px;
-	font-weight: 600;
-	letter-spacing: -1px;
-	margin: 0 0 10px 0;
-	text-align: center;
-}
-
-.icon-features-intro p {
-	font-size: 16px;
-	color: #A1A1A1;
-	text-align: center;
-	margin: 0 0 30px 0;
-}
-
-.f-single {
-	position: relative;
-	padding: 10px 0 80px 0;
-}
-
-.f-icon i {
-	font-size: 54px;
-	font-weight: bold;
-	position: absolute;
-	left: 0;
-}
-
-.f-content {
-	padding-left: 80px;
-}
-
-.f-content h2 {
-	font-size: 21px;
-	font-weight: 400;
-	margin: 0 0 10px 0;
-}
-
-.f-content p {
-	font-family: 'Open Sans';
-	font-size: 14px;
-	font-weight: 300;
-	color: #4D4D4D;
-	line-height: 1.5;
-	text-align: left;
 }
 
 
@@ -1261,44 +757,6 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	color: #A1A1A1;
 }
 
-/* ----- App Features List ----- */
-
-.software .features {
-	padding: 100px 0 100px 0;
-}
-
-.software .features .features-list h1 {
-	font-size: 26px;
-	font-weight: 600;
-	letter-spacing: -1px;
-	line-height: 1.2;
-	color: #222222;
-	margin: 20px 0 20px 0;
-}
-
-.software .features-list p {
-	margin: 0 0 25px 0;
-	font-family: 'Josefin Sans';
-	font-size: 18px;
-	line-height: 1.2;
-	color: #A1A1A1;
-}
-
-.software .features .features-list ul {
-	list-style-type: disc;
-	padding-left: 20px;
-}
-
-
-.software .features .features-list ul li {
-	font-family: Open Sans;
-	display: block;
-	font-size: 13px;
-	margin: 0 0 15px 0;
-	color: #A1A1A1;
-}
-
-
 /* --------------- Feature Sub ------------ */
 
 .feature-sub .sub-inner h1 {
@@ -1331,26 +789,6 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	padding:0 10% 0 10%;
 	text-align:center;
 	float: left;
-}
-
-/* --------- App Features Sub ------- */
-
-
-.software .feature-sub {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.99)), url("images/app_bg1.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	padding: 150px 0 150px 0;
-}
-
-.software .feature-sub .sub-inner h1 {
-	font-family: 'Josefin Sans';
-	font-size: 34px;
-	font-weight: 300;
-	line-height: 1.1;
-	color: #FFF;
-	margin: 0 0 30px 0;
 }
 
 
@@ -1436,86 +874,6 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .app-features .feature-single p {
-	font-size: 14px;
-	color: #A1A1A1;
-	line-height: 1.4;
-	margin: 10px 0 0 0;
-}
-
-.portfolio {
-	background: #FFFFFF;
-	padding: 100px 0 100px 0;
-}
-
-.portfolio h1 {
-	font-size: 37px;
-	font-weight: 900;
-	margin: 50px 0 10px 0;
-}
-
-.portfolio p {
-	font-size: 16px;
-	font-weight: 400;
-	color: #A1A1A1;
-	line-height: 1.4;
-	margin: 10px 0 50px 0;
-}
-
-.portfolio .feature-single .r1 {
-	 margin: 30% auto;
-}
-
-.portfolio img {
-	 margin: 0 auto;
-}
-
-.portfolio .features-left, .portfolio .features-right {
-	padding: 50px 0 0 0;
-}
-
-.portfolio .prodimg {
-	box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
-	-webkit-transition: 0.3s;
-	-moz-transition: 0.3s;
-	-o-transition: 0.3s;
-	transition: 0.3s;
-}
-
-.portfolio .prodimg:hover {
-	box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.5);
-	-webkit-transition: 0.3s;
-	-moz-transition: 0.3s;
-	-o-transition: 0.3s;
-	transition: 0.3s;
-}
-
-.portfolio .icon {
-	margin-top: 10px;
-	margin-bottom: 20px;
-}
-
-.portfolio .icon i {
-	font-size: 72px;
-	color: #3c78d8;
-}
-
-
-.portfolio .feature-single {
-	margin-left: 0;
-	margin-bottom: 50px;
-}
-
-
-.portfolio .feature-single h1 {
-	font-size: 15px;
-	font-weight: 600;
-	color: #222222;
-	margin: 0 0 10px 0;
-	letter-spacing: 1px;
-	text-transform:uppercase;
-}
-
-.portfolio .feature-single p {
 	font-size: 14px;
 	color: #A1A1A1;
 	line-height: 1.4;
@@ -1801,50 +1159,6 @@ padding: 50px;
 
 /* ----- Pricing Section Styling Ends ----- */
 
-
-
-
-/* ----- Counter Section Styling Starts -----*/
-
-.counter-section {
- width: 100%;
- padding-top: 50px;
- padding-bottom: 50px;
- background: #F1F1F1;
-}
-
-.counter-section h3  {
-	font-size: 28px;
-	font-weight: 400;
-	color: #222222;
-}
-
-.counter-icon {
-  padding: 15px;
-}
-
-.counter-icon i {
-  font-size: 48px;
-  color: #1eb858;
-}
-
-.counter-text {
-	margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.counter-text h4 {
-  font-size: 16px;
-  font-weight: 400;
-  padding: 0.5em;
-  color: #222222;
-}
-
-/* -------- Counter Section Styling Ends --------- */
-
-
-
-
 /* ----- CTA Section Styling Starts ----- */
 
 
@@ -1896,68 +1210,6 @@ padding: 50px;
 .cta-sub .social-links i:hover {
 	color: rgba(60, 120, 216, 0.7);
 }
-.subscribe-form {
-	text-align: left;
-}
-.center-form {
-	text-align: center;
-}
-
-.subscribe-form .mail {
- background-color: #F9F9F9;
- border: none;
- border-radius: 5px 0 0 5px;
- outline: none;
- height: 40px;
- padding: 0 130px 0 20px;
- box-shadow: none;
- -webkit-box-sizing: content-box;
- -moz-box-sizing: content-box;
- box-sizing: content-box;
- transition: all .3s;
-}
-
-
-.subscribe-form input {
-  color: #222222;
-  font-family: Open Sans;
-  padding: 0;
-  font-size: 0.9em;
-}
-
-.subscribe-form .submit-button {
-  font-size: 0.9em;
-  height: 40px;
-  border: 2px solid;
-  border-radius: 0 5px 5px 0;
-  margin: 0;
-  padding: 0 25px 0 25px;
-	border-color: #FFFFFF;
-  background-color: #927f54;
-  color: #FFFFFF;
-	box-shadow: 0 0 1px transparent;
-  outline: none;
-	-webkit-transition: 500ms;
-	-moz-transition: 500ms;
-	transition: 500ms;
-}
-
-.subscribe-form .submit-button:hover {
-  border-color: #927f54;
-  -webkit-transition: 500ms;
-	-moz-transition: 500ms;
-  transition: 500ms;
-}
-
-.product .subscribe-form .submit-button {
-	border-color: #FFFFFF;
-  background-color: #927f54;
-}
-
-.product .subscribe-form .submit-button:hover {
-  border-color: #927f54;
-}
-
 
 .error_message {
 	color:#fc6e51;
@@ -1985,12 +1237,7 @@ padding: 50px;
 
 /* ----- CTA Section Styling Ends ----- */
 
-
-
-
 /* ------- Footer Section Styling Starts ------- */
-
-
 .footer {
 	font-family:"Open Sans";
   background-color: #F3F3F3;
