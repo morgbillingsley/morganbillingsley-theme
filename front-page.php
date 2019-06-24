@@ -114,17 +114,17 @@
                 <div class="cta-inner">
                     <h1 class="wow fadeInUp" data-wow-delay="0s">Have you visited my social media pages yet?</h1>
                 </div>
-                <div class="col-md-4 col-center-block social-links">
-                    <div class="col-md-3">
+                <div class="row social-links">
+                    <div class="col-xs-3">
                         <div class="icon"> <a href="https://www.facebook.com/morgbillingsley/"><i class="ion-social-facebook"></i></a></div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-xs-3">
                         <div class="icon"> <a href="https://www.instagram.com/morgbillingsley/"><i class="ion-social-instagram"></i></a></div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-xs-3">
                         <div class="icon"> <a href="https://www.linkedin.com/in/morgan-billingsley/"><i class="ion-social-linkedin"></i></a></div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-xs-3">
                         <div class="icon"> <a href="https://twitter.com/MorgBillingsley"><i class="ion-social-twitter"></i></a></div>
                     </div>
                     </div>
@@ -132,9 +132,9 @@
             </div>
             <div id="review-section" class="review-section">
                 <div class="container">
-                    <div class="col-md-10 col-md-offset-1">
+                    <div class="col-md-10 col-md-offset-2">
                         <div class="reviews owl-carousel owl-theme">
-                            <div class="review-single"><img class="img-circle" src="<?php bloginfo('template_url'); ?>/images/me.jpeg" />
+                            <div class="review-single"><img class="rounded-circle" src="<?php bloginfo('template_url'); ?>/images/me.jpeg" />
                                 <div class="review-text wow fadeInUp" data-wow-delay="0.2s">
                                     <p>Morgan is the founder and president of Morgan Billingsley Website Design <br> email him at morgan@morganbillingsley.com or call at (208) 918-2941</p>
                                     <h3>Morgan Billingsley</h3>
@@ -146,8 +146,8 @@
             </div>
             <div id="pricing" class="pricing-section text-center">
                 <div class="container">
-                    <div class="col-md-12 col-sm-12 nopadding">
-                        <div class="pricing-intro">
+                    <div class="row nopadding">
+                        <div class="col-md-12 pricing-intro">
                             <h1 class="wow fadeInUp" data-wow-delay="0s">Pricing Plans</h1>
                             <p class="wow fadeInUp" data-wow-delay="0.2s"> Take a look at our prices below <br class="hidden-xs">and decide which one works best for you. </p>
                         </div>
