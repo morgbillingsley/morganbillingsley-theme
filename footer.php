@@ -22,7 +22,7 @@
     <?php wp_footer(); ?>
 
     <!-- Jquery and Js Plugins -->
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/plugins.js"></script>
