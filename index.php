@@ -2,8 +2,8 @@
     <div style="height:150px;"></div>
     <div class="container">
         <div class="row">
-            <div class="container">
-                <div class="col-md-12 mx-auto">
+            <div class="container mx-auto">
+                <div class="col-md-8">
                     <form action="<?php echo esc_url(admin_url("admin-post.php")); ?>" method="post">
                         <input type="hidden" name="action" value="contact">
                         <div class="form-group">
