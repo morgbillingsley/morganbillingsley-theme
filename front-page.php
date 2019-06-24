@@ -92,7 +92,7 @@
                     <div class="split-image"> <img class="img-responsive wow fadeIn" src="<?php bloginfo('template_url'); ?>/images/app_image2.jpeg" alt="Image" /></div>
                 </div>
                 <div class="col-md-6 nopadding">
-                    <div class=" split-content text-center">
+                    <div class=" split-content second text-center">
                         <h1 class="wow fadeInUp">Powerful Back End</h1>
                         <p class="wow fadeInUp"> In addition to the highly streamlined design of your website, I will create a back-end for your website that can handle the intense browsing and traffic.</p>
                     </div>
