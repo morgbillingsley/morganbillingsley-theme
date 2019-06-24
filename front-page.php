@@ -43,7 +43,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 w-100"></div>
+                    <div class="col-md-4 w-75"></div>
                     <div class="col-md-4 features-left">
                         <div class="col-md-12 wow fadeInDown" data-wow-delay="0.6s">
                             <div class="icon"> <i class="ion-at"></i></div>
@@ -74,7 +74,7 @@
         <div class="split-features">
             <div class="row">
                 <div class="col-md-6 nopadding">
-                    <div class="align-middle text-center">
+                    <div class="split-content align-middle text-center">
                         <h1 class="wow fadeInUp">Streamline Design</h1>
                         <p class="wow fadeInUp"> Using expert design techniques and customer feedback, I create tailor-made digital real-estate for any company in any industry.</p><br>
                         <p class="wow fadeInUp">Take a look at some of the <a href="#">websites</a> I have created and let me know which one you like best, so when I create your web page, I know the style that you prefer.</p>
@@ -92,7 +92,7 @@
                     <div class="split-image"> <img class="img-responsive wow fadeIn" src="<?php bloginfo('template_url'); ?>/images/app_image2.jpeg" alt="Image" /></div>
                 </div>
                 <div class="col-md-6 nopadding">
-                    <div class="text-center">
+                    <div class=" split-content text-center">
                         <h1 class="wow fadeInUp">Powerful Back End</h1>
                         <p class="wow fadeInUp"> In addition to the highly streamlined design of your website, I will create a back-end for your website that can handle the intense browsing and traffic.</p>
                     </div>
