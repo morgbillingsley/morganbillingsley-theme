@@ -127,142 +127,143 @@
                     </div>
                 </div>
             </div>
-            <div id="review-section" class="review-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 mx-auto">
-                            <div class="reviews owl-carousel owl-theme">
-                                <div class="review-single"><img class="rounded-circle" src="<?php bloginfo('template_url'); ?>/images/me.jpeg" />
-                                    <div class="review-text wow fadeInUp" data-wow-delay="0.2s">
-                                        <p>Morgan is the founder and president of Morgan Billingsley Website Design <br> email him at morgan@morganbillingsley.com or call at (208) 918-2941</p>
-                                        <h3>Morgan Billingsley</h3>
-                                    </div>
+        </div>
+        <div id="review-section" class="review-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto">
+                        <div class="reviews owl-carousel owl-theme">
+                            <div class="review-single"><img class="rounded-circle" src="<?php bloginfo('template_url'); ?>/images/me.jpeg" />
+                                <div class="review-text wow fadeInUp" data-wow-delay="0.2s">
+                                    <p>Morgan is the founder and president of Morgan Billingsley Website Design <br> email him at morgan@morganbillingsley.com or call at (208) 918-2941</p>
+                                    <h3>Morgan Billingsley</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="pricing" class="pricing-section text-center">
-                <div class="container">
-                    <div class="row nopadding">
-                        <div class="col-md-12 pricing-intro">
-                            <h1 class="wow fadeInUp" data-wow-delay="0s">Pricing Plans</h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s"> Take a look at our prices below <br class="hidden-xs">and decide which one works best for you. </p>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="icon"> <i class="ion-jet"></i></div>
-                                <div class="pricing-details">
-                                    <h2>Starter Plan</h2>
-                                    <span>$25</span>
-                                    <ul>
-                                        <li>Custom Landing Page</li>
-                                        <li>Free Hosting</li>
-                                        <li>No Professional Emails</li>
-                                        <li>No Database</li>
-                                        <li>One-Time Cost</li>
-                                        <li>$1/mo Maintenance (optional)</li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Buy Now</button>
-                                </div>
+        </div>
+        <div id="pricing" class="pricing-section text-center">
+            <div class="container">
+                <div class="row nopadding">
+                    <div class="col-md-12 pricing-intro">
+                        <h1 class="wow fadeInUp" data-wow-delay="0s">Pricing Plans</h1>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s"> Take a look at our prices below <br class="hidden-xs">and decide which one works best for you. </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="icon"> <i class="ion-jet"></i></div>
+                            <div class="pricing-details">
+                                <h2>Starter Plan</h2>
+                                <span>$25</span>
+                                <ul>
+                                    <li>Custom Landing Page</li>
+                                    <li>Free Hosting</li>
+                                    <li>No Professional Emails</li>
+                                    <li>No Database</li>
+                                    <li>One-Time Cost</li>
+                                    <li>$1/mo Maintenance (optional)</li>
+                                </ul>
+                                <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Buy Now</button>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="icon"> <i class="ion-laptop"></i></div>
-                                <div class="pricing-details">
-                                    <h2>Basic Plan</h2>
-                                    <span>$50</span>
-                                    <ul>
-                                        <li>Responsive Website</li>
-                                        <li>Free Hosting</li>
-                                        <li>1 Professional Email</li>
-                                        <li>No Databse</li>
-                                        <li>One-Time Cost</li>
-                                        <li>$5/mo Maintenance (optional)</li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Buy Now</button>
-                                </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="icon"> <i class="ion-laptop"></i></div>
+                            <div class="pricing-details">
+                                <h2>Basic Plan</h2>
+                                <span>$50</span>
+                                <ul>
+                                    <li>Responsive Website</li>
+                                    <li>Free Hosting</li>
+                                    <li>1 Professional Email</li>
+                                    <li>No Databse</li>
+                                    <li>One-Time Cost</li>
+                                    <li>$5/mo Maintenance (optional)</li>
+                                </ul>
+                                <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Buy Now</button>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="icon"> <i class="ion-monitor"></i></div>
-                                <div class="pricing-details">
-                                    <h2>Standard Plan</h2>
-                                    <span>$200</span>
-                                    <ul>
-                                        <li>Responsive Website</li>
-                                        <li>Free Hosting</li>
-                                        <li>5 Professional Emails</li>
-                                        <li>100MB Database Storage</li>
-                                        <li>One-Time Cost</li>
-                                        <li>$10/mo Maintenance (optional)</li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Buy Now</button>
-                                </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="icon"> <i class="ion-monitor"></i></div>
+                            <div class="pricing-details">
+                                <h2>Standard Plan</h2>
+                                <span>$200</span>
+                                <ul>
+                                    <li>Responsive Website</li>
+                                    <li>Free Hosting</li>
+                                    <li>5 Professional Emails</li>
+                                    <li>100MB Database Storage</li>
+                                    <li>One-Time Cost</li>
+                                    <li>$10/mo Maintenance (optional)</li>
+                                </ul>
+                                <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Buy Now</button>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="icon"> <i class="ion-ribbon-b"></i></div>
-                                <div class="pricing-details">
-                                    <h2>Premium Plan</h2>
-                                    <span>$400</span>
-                                    <ul>
-                                        <li>Responsive Website</li>
-                                        <li>Free Hosting</li>
-                                        <li>25 Professional Emails</li>
-                                        <li>500MB Database Storage</li>
-                                        <li>One-Time Cost</li>
-                                        <li>$15/mo Maintenance (optional)</li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Buy Now</button>
-                                </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="icon"> <i class="ion-ribbon-b"></i></div>
+                            <div class="pricing-details">
+                                <h2>Premium Plan</h2>
+                                <span>$400</span>
+                                <ul>
+                                    <li>Responsive Website</li>
+                                    <li>Free Hosting</li>
+                                    <li>25 Professional Emails</li>
+                                    <li>500MB Database Storage</li>
+                                    <li>One-Time Cost</li>
+                                    <li>$15/mo Maintenance (optional)</li>
+                                </ul>
+                                <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Buy Now</button>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="icon"> <i class="ion-network"></i></div>
-                                <div class="pricing-details">
-                                    <h2>Unlimited Plan</h2>
-                                    <span>$1,000</span>
-                                    <ul>
-                                        <li>Responsive Website</li>
-                                        <li>Free Hosting</li>
-                                        <li>Unlimited Professional Emails</li>
-                                        <li>Unlimited Database Storage</li>
-                                        <li>One-Time Cost</li>
-                                        <li>$50/mo Maintenance (optional)</li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Buy Now</button>
-                                </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="icon"> <i class="ion-network"></i></div>
+                            <div class="pricing-details">
+                                <h2>Unlimited Plan</h2>
+                                <span>$1,000</span>
+                                <ul>
+                                    <li>Responsive Website</li>
+                                    <li>Free Hosting</li>
+                                    <li>Unlimited Professional Emails</li>
+                                    <li>Unlimited Database Storage</li>
+                                    <li>One-Time Cost</li>
+                                    <li>$50/mo Maintenance (optional)</li>
+                                </ul>
+                                <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Buy Now</button>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="icon"> <i class="ion-bookmark"></i></div>
-                                <div class="pricing-details">
-                                    <h2>Luxury Plan</h2>
-                                    <span>$1,500 +</span>
-                                    <ul>
-                                        <li>Responsive Website</li>
-                                        <li>Free Hosting</li>
-                                        <li>Unlimited Professional Emails</li>
-                                        <li>Unlimited Database Storage</li>
-                                        <li><strong>High-End Software & Integrations</strong></li>
-                                        <li>$50/mo Maintenance (required)</li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Buy Now</button>
-                                </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="table-right wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="icon"> <i class="ion-bookmark"></i></div>
+                            <div class="pricing-details">
+                                <h2>Luxury Plan</h2>
+                                <span>$1,500 +</span>
+                                <ul>
+                                    <li>Responsive Website</li>
+                                    <li>Free Hosting</li>
+                                    <li>Unlimited Professional Emails</li>
+                                    <li>Unlimited Database Storage</li>
+                                    <li><strong>High-End Software & Integrations</strong></li>
+                                    <li>$50/mo Maintenance (required)</li>
+                                </ul>
+                                <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Buy Now</button>
                             </div>
                         </div>
-                        <div class="pricing-intro text-center mx-auto">
-                            <h1 class="wow fadeInUp" data-wow-delay="0s">For Custom Plans</h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s"> Please <a href="#">contact me</a></p>
-                        </div>
+                    </div>
+                    <div class="pricing-intro text-center mx-auto">
+                        <h1 class="wow fadeInUp" data-wow-delay="0s">For Custom Plans</h1>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s"> Please <a href="#">contact me</a></p>
                     </div>
                 </div>
             </div>
-            <?php get_footer(); ?>
+        </div>
+        <?php get_footer(); ?>
