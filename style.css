@@ -880,69 +880,6 @@ input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-inpu
 	margin: 10px 0 0 0;
 }
 
-
-/*-------------------------------------------------------
-------------- Split Features Section Styling ------------
---------------------------------------------------------*/
-
-.split-features {
-	background: #F9F9F9;
-	padding: 50px 0 50px 0;
-	overflow: hidden;
-}
-
-.signup .split-features {
-	background: #F2F2F2;
-}
-
-.split-image img {
-	margin: 0 auto;
-}
-
-.split-content {
-	padding: 20px;
-	text-align: center;
-}
-
-.split-content h1 {
-	font-size: 37px;
-	font-weight: 900;
-	letter-spacing: -2px;
-	margin: 0 0 20px 0;
-}
-
-.split-content p {
-	font-size: 16px;
-	line-height: 1.4;
-	color: #A1A1A1;
-	letter-spacing: 0;
-}
-
-.split-content ul {
-	list-style-type: disc;
-	display: inline-block;
-	margin: 30px 0 0 0;
-}
-
-.split-content ul li {
-	font-family: Open Sans;
-	font-size: 16px;
-	letter-spacing: 0;
-	margin-bottom: 15px;
-	margin-left: 15px;
-	color: #A1A1A1;
-}
-
-.split-features2 {
-	background: #FFFFFF;
-	padding: 50px 0 50px 0;
-	overflow: hidden;
-}
-
-.second {
-padding: 50px;
-}
-
 /*  --------------------------------------------------
 ------------- Reviews Section Styling ----------------
 -----------------------------------------------------*/
@@ -1507,9 +1444,6 @@ font-size: 12px;
 	.split-content h1 {
 		font-size: 37px;
 	}
-.second {
-padding: 120px 10px 50px 350px;
-}
 
 	.pricing {
 		padding: 100px 0 100px 0;

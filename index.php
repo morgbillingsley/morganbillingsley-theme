@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row mt-3">
+        <div class="row">
             <div class="col-md-6">
                 <div class="panel panel-primary">
                     <div class="panel-heading">Software Project</div>
