@@ -44,10 +44,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="table">
-                            <div class="tablecell">
-                                <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/app_signup.png" alt="App" />
-                            </div>
+                        <div class="col-md-12">
+                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/app_signup.png" width="100" alt="App" />
                         </div>
                     </div>
                     <div class="col-md-4 features-left">
@@ -80,7 +78,7 @@
         <div class="split-features">
             <div class="row">
                 <div class="col-md-6 nopadding">
-                    <div class="split-content">
+                    <div class="text-center">
                         <h1 class="wow fadeInUp">Streamline Design</h1>
                         <p class="wow fadeInUp"> Using expert design techniques and customer feedback, I create tailor-made digital real-estate for any company in any industry.</p><br>
                         <p class="wow fadeInUp">Take a look at some of the <a href="#">websites</a> I have created and let me know which one you like best, so when I create your web page, I know the style that you prefer.</p>
@@ -98,7 +96,7 @@
                     <div class="split-image"> <img class="img-responsive wow fadeIn" src="<?php bloginfo('template_url'); ?>/images/app_image2.jpeg" alt="Image" /></div>
                 </div>
                 <div class="col-md-6 nopadding">
-                    <div class="split-content second">
+                    <div class="text-center">
                         <h1 class="wow fadeInUp">Powerful Back End</h1>
                         <p class="wow fadeInUp"> In addition to the highly streamlined design of your website, I will create a back-end for your website that can handle the intense browsing and traffic.</p>
                     </div>
@@ -120,11 +118,12 @@
                 <div class="cta-inner">
                     <h1 class="wow fadeInUp" data-wow-delay="0s">Have you visited my social media pages yet?</h1>
                 </div>
-                <div class="row social-links w-100 text-center">
-                    <a href="https://www.facebook.com/morgbillingsley/"><i class="ion-social-facebook"></i></a>
-                    <a href="https://www.instagram.com/morgbillingsley/"><i class="ion-social-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/morgan-billingsley/"><i class="ion-social-linkedin"></i></a>
-                    <a href="https://twitter.com/MorgBillingsley"><i class="ion-social-twitter"></i></a>
+                <div class="row social-links mx-auto">
+                    <div class="col-md-12">
+                        <a href="https://www.facebook.com/morgbillingsley/" class="m-2"><i class="ion-social-facebook"></i></a>
+                        <a href="https://www.instagram.com/morgbillingsley/" class="m-2"><i class="ion-social-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/morgan-billingsley/" class="m-2"><i class="ion-social-linkedin"></i></a>
+                        <a href="https://twitter.com/MorgBillingsley" class="m-2"><i class="ion-social-twitter"></i></a>
                     </div>
                 </div>
             </div>
@@ -259,7 +258,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="pricing-intro text-center">
+                        <div class="pricing-intro text-center mx-auto">
                             <h1 class="wow fadeInUp" data-wow-delay="0s">For Custom Plans</h1>
                             <p class="wow fadeInUp" data-wow-delay="0.2s"> Please <a href="#">contact me</a></p>
                         </div>
