@@ -58,21 +58,17 @@
 
     <div class="wrapper">
     <div class="container">
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                    <a class="navbar-brand page-scroll" href="#main"><h1>Morgan<strong>Billingsley</strong></h1></a>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Morgan<span class="text-primary">Billingsley</span></a>
                 </div>
-                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li><a class="page-scroll" href="#main">Home</a></li>
-                        <li><a class="page-scroll" href="#">Websites</a></li>
-                        <li><a class="page-scroll" href="#pricing">Services</a></li>
-                        <li><a class="page-scroll" href="#">Build my Website</a></li>
-                        <li><a class="page-scroll" href="#">Contact</a></li>
-                    </ul>
-                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">My Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
             </div>
         </nav>
     </div>
