@@ -3,18 +3,17 @@
         <div class="hero-section">
             <div class="container nopadding">
                 <div class="col-md-12 center">
-                    <div class="hero-content">
-                        <h3 class="wow fadeInUp" data-wow-delay="0.1s">Contact Me</h3>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">And lets get to work on your next project</p>
+                    <div class="hero-content mx-auto">
+                        <h2 data-wow-delay="0.1s">Contact Me</h2>
+                        <p data-wow-delay="0.2s">And lets get to work on your next project</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-md-6">
-                <h3>Consider the Following:</h3>
                 <div class="panel panel-primary">
                     <div class="panel-heading">Software Project</div>
                     <div class="panel-body">
@@ -24,7 +23,7 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading">Dynamic Website</div>
                     <div class="panel-body">
-                        Does your company need a powerful website? One where clients can login and make appointments? Or maybe an advanced dashboard for your customers to view invoices and pending orders. Let me know how much power you need in your website and we can get to work creating that for you.
+                        Does your company need a powerful website? One where clients can login and make appointments? Or maybe an advanced dashboard for your customers to view invoices and pending orders? Let me know how much power you need in your website and we can get to work creating that for you.
                     </div>
                 </div>
                 <div class="panel panel-primary">
