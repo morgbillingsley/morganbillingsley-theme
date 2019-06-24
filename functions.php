@@ -39,6 +39,7 @@
 
         // Send notification
         $message = "A new contact form was submitted by {$fname} {$lname}.";
+        pushover($message);
 
         // Redirect to homepage
         wp_redirect('http://morganbillingsley.com/');
