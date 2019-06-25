@@ -20,14 +20,6 @@ jQuery(function($) {
        }
 
       });
-
-
-  // Collapse navbar on click
-
-   $(document).on('click.nav','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a') ) {
-    $(this).removeClass('in').addClass('collapse');
-   }
   });
 
 
