@@ -57,7 +57,6 @@
     <!-- End Facebook Pixel Code -->
 
     <div class="wrapper">
-    <div class="container">
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -71,4 +70,3 @@
                 </ul>
             </div>
         </nav>
-    </div>
