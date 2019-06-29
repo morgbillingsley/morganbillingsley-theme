@@ -69,12 +69,12 @@
                         </div>
                     </div>
 
+                    <div class="text-center text-md-left">
+                        <button class="btn btn-primary" type="submit">Send</button>
+                    </div>
+
                 </form>
 
-                <div class="text-center text-md-left">
-                    <button class="btn btn-primary" type="submit">Send</button>
-                </div>
-                <div class="status"></div>
             </div>
 
         </div>
