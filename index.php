@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <div class="main app form" id="main">
+    <div class="main app form" id="contact">
         <div class="image-bg">
             <div class="hero-section">
                 <div class="container nopadding">
@@ -25,28 +25,34 @@
 
                     <div class="row">
 
-                        <div class="col-md-6 input-group p-2">
+                        <div class="col-md-6 form-group">
+                        <label for="name">Full Name:</label>
                         <input type="text" id="name" name="name" placeholder="Name" class="form-control">
                         </div>
 
-                        <div class="col-md-6 input-group p-2">
-                        <input type="text" id="email" name="email" placeholder="Email" class="form-control">
+                        <div class="col-md-6 form-group">
+                        <label for="name">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="Email" class="form-control">
                         </div>
 
                     </div>
 
                     <div class="row">
-                        <div class="col-md-12 input-group p-2">
-                        <div class="input-group-prepend">
+                        <div class="col-md-12 form-group">
+                        <label for="name">Phone Number:</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">+1</span>
+                            </div>
+                            <input type="text" id="phone" name="phone" placeholder="Phone" class="form-control">
                         </div>
-                        <input type="text" id="phone" name="phone" placeholder="Phone" class="form-control">
                         </div>
                     </div>
 
                     <div class="row">
 
-                        <div class="col-md-12 input-group p-2">
+                        <div class="col-md-12 form-group">
+                        <label for="name">Your Message:</label>
                         <textarea type="text" id="message" name="message" placeholder="Message" rows="2" class="form-control md-textarea"></textarea>
                         </div>
                     </div>
