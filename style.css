@@ -939,6 +939,17 @@ input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-inpu
 
 /* ----- CTA Section Styling Ends ----- */
 
+/* ----- Nav Section Styling ----- */
+
+.nav-shadow { box-shadow: 0px 3px 5px grey; }
+.search-bar{ padding: 10px 10px 5px 0px; border: none; border-bottom: 2px solid #efefef; color: #efefef; }
+.search-bar:focus{ outline: none; }
+.search-bar::placeholder{ color: #efefef; opacity: 0.7; }
+.search-btn{ background: transparent; border: none; border-radius: 0px; border-bottom: 2px solid #efefef; color: #efefef; }
+.dropdown{ cursor: pointer; }
+
+/* ----- Nav Section Styling Ends ----- */
+
 /* ------- Footer Section Styling Starts ------- */
 .footer {
 	font-family:"Open Sans";
