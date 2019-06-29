@@ -26,9 +26,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.css">
     <!-- Resource style -->
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.carousel.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.theme.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Resource style -->
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" media="all" />

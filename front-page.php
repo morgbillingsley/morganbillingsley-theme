@@ -94,10 +94,10 @@
                 </div>
                 <div class="row social-links mx-auto">
                     <div class="col-md-12">
-                        <a href="https://www.facebook.com/morgbillingsley/" class="m-2"><i class="ion-logo-facebook"></i></a>
-                        <a href="https://www.instagram.com/morgbillingsley/" class="m-2"><i class="ion-logo-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/morgan-billingsley/" class="m-2"><i class="ion-logo-linkedin"></i></a>
-                        <a href="https://twitter.com/MorgBillingsley" class="m-2"><i class="ion-logo-twitter"></i></a>
+                        <a href="https://www.facebook.com/morgbillingsley/" class="m-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/morgbillingsley/" class="m-2"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/morgan-billingsley/" class="m-2"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/MorgBillingsley" class="m-2"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
             </div>
