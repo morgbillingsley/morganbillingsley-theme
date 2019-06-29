@@ -1,5 +1,4 @@
 <div class="comments">
-    <h2>Comments</h2>
     <?php $args = array(
         'walker'            => null,
         'max_depth'         => '',
@@ -22,10 +21,13 @@
     <?php
         wp_list_comments($args, $comments);
         $comments_args = array(
+                'class_submit' => 'btn btn-primary'
                 'label_submit'=>'Send',
+                'title_reply_before' => '<h4>'
                 'title_reply'=>'Write a Reply or Comment',
+                'title_reply_after' => '</h4>'
                 'comment_notes_after' => '',
-                'comment_field' => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><br /><textarea id="comment" name="comment" aria-required="true"></textarea></p>',
+                'comment_field' => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><br /><textarea class="form-control" id="comment" name="comment" rows="5" aria-required="true"></textarea></p>',
         );
         comment_form($comments_args);
     ?>
