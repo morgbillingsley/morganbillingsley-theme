@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.carousel.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.theme.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Resource style -->
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" media="all" />
 

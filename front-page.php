@@ -41,7 +41,7 @@
                     <div class="col-md-4 col-sm-6 pb-4">
                         <div class="card">
                             <div class="card-body text-center">
-                                <i class="icon ion-ios-globe text-primary" style="font-size: 68px;"></i>
+                                <i class="material-icons text-primary" style="font-size: 68px;">dashboard</i>
                                 <h5 class="card-title">Web Applications</h5>
                                 <p class="card-text">Take your business beyond a static web page. Make your app accessible with a url.</p>
                             </div>
