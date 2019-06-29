@@ -1,67 +1,65 @@
 <?php get_header(); ?>
-    <div class="image-bg">
-        <div class="hero-section">
-            <div class="container nopadding">
-                <div class="col-md-12 center">
-                    <div class="hero-content mx-auto">
-                        <h2 data-wow-delay="0.1s">Contact Me</h2>
-                        <p data-wow-delay="0.2s">And lets get to work on your next project</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">Software Project</div>
-                    <div class="panel-body">
-                        If you're looking to launch a new application or program, and you are looking for a developer, go ahead and fill out this form. Let me know a little bit about the project and I will get back to you as soon as I can.
-                    </div>
-                </div>
-                <div class="panel panel-primary">
-                    <div class="panel-heading">Dynamic Website</div>
-                    <div class="panel-body">
-                        Does your company need a powerful website? One where clients can login and make appointments? Or maybe an advanced dashboard for your customers to view invoices and pending orders? Let me know how much power you need in your website and we can get to work creating that for you.
-                    </div>
-                </div>
-                <div class="panel panel-primary">
-                    <div class="panel-heading">Not Sure?</div>
-                    <div class="panel-body">
-                        If you know that you need a tech solution, but you're not exactly sure what you need, describe your problem for me in this form. I will give you a free consultation and we can figure out what the best solution is for your company.
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <form action="<?php echo esc_url(admin_url("admin-post.php")); ?>" method="post">
-                    <input type="hidden" name="action" value="contact">
-                    <div class="form-group">
-                        <label for="fname">First Name</label>
-                        <input type="text" class="form-control" name="fname">
-                    </div>
-                    <div class="form-group">
-                        <label for="lname">Last Name</label>
-                        <input type="text" class="form-control" name="lname">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" name="email">
-                    </div>
-                        <div class="form-group">
-                            <label for="phone">Phone</label>
-                            <div class="input-group">
-                                <div class="input-group-addon">+1</div>
-                                <input type="text" class="form-control" name="phone">
-                            </div>
+    <div class="main app form" id="main">
+        <div class="image-bg">
+            <div class="hero-section">
+                <div class="container nopadding">
+                    <div class="col-md-12 center">
+                        <div class="hero-content">
+                            <h1 class="wow fadeInUp" data-wow-delay="0.1s">Contact Me</h1>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">And ler's get to work on your next project.</p>
+                            <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Build My Site</button>
                         </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea name="message" class="form-control" rows="5"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send</button>
-                </form>
+                </div>
             </div>
         </div>
     </div>
+    <section class="m-4">
+
+        <p class="text-center w-responsive mx-auto mb-5">Have a question? Please don't hesitate to contact me using the form below. I will be happy to give you a free consultation and answer any questions you may have. I look forward to speaking with you.</p>
+
+        <div class="row">
+
+            <div class="container">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <div class="row">
+
+                        <div class="col-md-6 input-group p-2">
+                        <input type="text" id="name" name="name" placeholder="Name" class="form-control">
+                        </div>
+
+                        <div class="col-md-6 input-group p-2">
+                        <input type="text" id="email" name="email" placeholder="Email" class="form-control">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 input-group p-2">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">+1</span>
+                        </div>
+                        <input type="text" id="phone" name="phone" placeholder="Phone" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-12 input-group p-2">
+                        <textarea type="text" id="message" name="message" placeholder="Message" rows="2" class="form-control md-textarea"></textarea>
+                        </div>
+                    </div>
+
+                </form>
+
+                <div class="text-center text-md-left">
+                    <button class="btn btn-primary" type="submit">Send</button>
+                </div>
+                <div class="status"></div>
+            </div>
+
+        </div>
+
+    </section>
     <?php get_footer(); ?>
