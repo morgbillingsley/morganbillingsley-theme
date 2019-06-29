@@ -27,7 +27,7 @@
                 'title_reply'           => 'Write a Reply or Comment',
                 'title_reply_after'     => '</h4>',
                 'comment_notes_after'   => '',
-                'comment_field'         => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><br /><textarea class="form-control" id="comment" name="comment" rows="5" aria-required="true"></textarea></p>',
+                'comment_field'         => '<p class="comment-form-comment mb-2 mt-2"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><br /><textarea class="form-control mb-2" id="comment" name="comment" rows="3" aria-required="true"></textarea></p>',
         );
         comment_form($comments_args);
     ?>
