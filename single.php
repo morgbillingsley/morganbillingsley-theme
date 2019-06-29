@@ -2,7 +2,7 @@
     <?php if(have_posts()) : ?>
         <?php while(have_posts()) : the_post(); ?>
             <?php if(has_post_thumbnail()) : ?>
-                <header class="masthead" style="background-image: url('<?php the_post_thumbnail_url('full'); ?>'); padding: 100px 0px 85px 0px;">
+                <header class="masthead" style="background-image: url('<?php the_post_thumbnail_url('full'); ?>'); background-size: cover; padding: 100px 0px 85px 0px;">
             <?php else : ?>
                 <header class="masthead bg-secondary" style="padding: 100px 0px 85px 0px;">
             <?php endif; ?>
