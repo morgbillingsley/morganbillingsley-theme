@@ -29,9 +29,9 @@
                 'comment_notes_after'   => '',
                 'comment_field'         => '<p class="comment-form-comment form-group"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><textarea class="form-control" id="comment" name="comment" rows="3" aria-required="true"></textarea></p>',
                 'fields'                => array(
-                    'author'=> '<p class="comment-form-author form-group"><label for="author">' . _x( 'Name', 'noun' ) . '</label><input class="form-control" type="text" id="author" name="author" value size="30" maxlength="100" require="required"></p>',
-                    'email' => '<p class="comment-form-email form-group"><label for="email">' . _x( 'Email', 'noun' ) . '</label><input class="form-control" type="email" id="email" name="email" value size="30" maxlength="100" require="required"></p>',
-                    'url'   => '<p class="comment-form-url form-group"><label for="url">' . _x( 'Website', 'noun' ) . '</label><input class="form-control" type="text" id="url" name="url" value size="30" maxlength="245"></p>'
+                    'author'=> '<div class="row"><div class="col-md-6"><p class="comment-form-author form-group"><label for="author">' . _x( 'Name', 'noun' ) . '</label><input class="form-control" type="text" id="author" name="author" value size="30" maxlength="100" require="required"></p></div>',
+                    'email' => '<div class="col-md-6"><p class="comment-form-email form-group"><label for="email">' . _x( 'Email', 'noun' ) . '</label><input class="form-control" type="email" id="email" name="email" value size="30" maxlength="100" require="required"></p></div></div>',
+                    'url'   => '<div class="row"><p class="comment-form-url form-group"><label for="url">' . _x( 'Website', 'noun' ) . '</label><input class="form-control" type="text" id="url" name="url" value size="30" maxlength="245"></p></div>'
                 )
         );
         comment_form($comments_args);
