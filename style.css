@@ -24,7 +24,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-family: Open Sans;
-	font-size: 100%;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -56,10 +55,12 @@ table {
     margin: 0 auto;
 }
 
-/* --- Common Styles ---*/
+.a-light a {
+	color: #95beff!important;
+}
 
-h1 {
-  font-size: 16px;
+.a-light:hover a {
+	color: #95beff!important;
 }
 
 /*----- Helper Classes -----*/
