@@ -6,17 +6,18 @@
             <?php else : ?>
                 <header class="masthead bg-secondary" style="padding: 100px 0px 85px 0px;">
             <?php endif; ?>
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-10 mx-auto text-center text-white a-light">
-                        <div class="post-heading">
-                            <h1><?php the_title(); ?></h1>
-                            <span class="meta">Posted by
-                                <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author(); ?></a>
-                                on <?php the_time('F j, Y g:i a'); ?>
-                            </span>
-                        </div>
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-10 mx-auto text-center text-white a-light">
+                            <div class="post-heading">
+                                <h1><?php the_title(); ?></h1>
+                                <span class="meta">Posted by
+                                    <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author(); ?></a>
+                                    on <?php the_time('F j, Y g:i a'); ?>
+                                </span>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>
