@@ -20,13 +20,14 @@
     </div>
     <section class="m-4">
 
-    <div class="alert alert-primary" role="alert">
-        Have a question? Fill out the form below and I will get back to you A.S.A.P. <a href="#" class="alert-link">Go back to homepage</a>.
-    </div>
-
         <div class="row">
 
             <div class="container">
+
+            <div class="alert alert-primary mb-2" role="alert">
+                Have a question? Fill out the form below and I will get back to you A.S.A.P. <a href="#" class="alert-link">Go back to homepage</a>.
+            </div>
+
                 <form action="<?php echo esc_url(admin_url("admin-post.php")); ?>" method="POST">
                     <input type="hidden" name="action" value="contact">
                     <div class="row">
