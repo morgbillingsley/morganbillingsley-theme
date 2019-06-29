@@ -1,3 +1,8 @@
+<?php
+/*
+    Template Name: Contact
+*/
+?>
 <?php get_header(); ?>
     <div class="main app text-center" id="main">
         <div class="image-bg">
