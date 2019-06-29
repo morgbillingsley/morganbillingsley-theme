@@ -23,7 +23,7 @@
                     <div class="col-md-4 col-sm-6 pb-4">
                         <div class="card">
                             <div class="card-body text-center">
-                                <i class="icon ion-ios-laptop text-primary" style="font-size: 68px;"></i>
+                            <i class="material-icons text-primary" style="font-size: 68px;">desktop-windows</i>
                                 <h5 class="card-title">Desktop Applications</h5>
                                 <p class="card-text">A desktop app can be excellent for marketability, but even better for internal use.</p>
                             </div>
@@ -32,7 +32,7 @@
                     <div class="col-md-4 col-sm-6 pb-4">
                         <div class="card">
                             <div class="card-body text-center">
-                                <i class="icon ion-ios-phone-portrait text-primary" style="font-size: 68px;"></i>
+                            <i class="material-icons text-primary" style="font-size: 68px;">smartphone</i>
                                 <h5 class="card-title">Mobile Applications</h5>
                                 <p class="card-text">Your next billion-dollar idea is waiting to be introduced to the app store.</p>
                             </div>
@@ -50,7 +50,7 @@
                     <div class="col-md-4 col-sm-6 pb-4">
                         <div class="card">
                             <div class="card-body text-center">
-                                <i class="icon ion-ios-folder text-primary" style="font-size: 68px;"></i>
+                            <i class="material-icons text-primary" style="font-size: 68px;">folder</i>
                                 <h5 class="card-title">Data Structure</h5>
                                 <p class="card-text">The most vital issues almost always begin with how your data is being organized.</p>
                             </div>
@@ -59,7 +59,7 @@
                     <div class="col-md-4 col-sm-6 pb-4">
                         <div class="card">
                             <div class="card-body text-center">
-                                <i class="icon ion-ios-lock text-primary" style="font-size: 68px;"></i>
+                            <i class="material-icons text-primary" style="font-size: 68px;">lock</i>
                                 <h5 class="card-title">Cyber Security</h5>
                                 <p class="card-text">No business can afford to lose a battle against an attack from a malicious hacker.</p>
                             </div>
@@ -68,7 +68,7 @@
                     <div class="col-md-4 col-sm-6 pb-4">
                         <div class="card">
                             <div class="card-body text-center">
-                                <i class="icon ion-ios-cloud text-primary" style="font-size: 68px;"></i>
+                            <i class="material-icons text-primary" style="font-size: 68px;">cloud</i>
                                 <h5 class="card-title">Server Assistance</h5>
                                 <p class="card-text">Cloud computing technology now allows us to host remotely... What's your best option?</p>
                             </div>
