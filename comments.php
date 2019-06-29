@@ -32,7 +32,7 @@
                 'fields'                => array(
                     'author'    => '<div class="row"><div class="col-md-6"><p class="comment-form-author form-group"><input class="form-control" type="text" id="author" name="author" value size="30" maxlength="100" placeholder="Name" require="required"></p></div>',
                     'email'     => '<div class="col-md-6"><p class="comment-form-email form-group"><input class="form-control" type="email" id="email" name="email" value size="30" maxlength="100" placeholder="Email" require="required"></p></div></div>',
-                    'cookies'   => '<div class="row"><div class="col-md-12"><p class="form-group"><div class="form-check-input"><input id="wp-comment-cookies-consent form-check-input" name="wp-comment-cookies-consent" type="checkbox" value="yes"><label for="wp-comment-cookies-consent" class="form-check-label">Remember me</label></div></p></div></div>'
+                    'cookies'   => '<div class="row"><div class="col-md-12"><p class="form-group"><div class="form-check"><input id="wp-comment-cookies-consent form-check-input" name="wp-comment-cookies-consent" type="checkbox" value="yes"><label for="wp-comment-cookies-consent" class="form-check-label">Remember me</label></div></p></div></div>'
                 )
         );
         comment_form($comments_args);
