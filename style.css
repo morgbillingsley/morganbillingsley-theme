@@ -1348,6 +1348,6 @@ font-size: 12px;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
  }
- .comment .comments {
+ .comments .comment {
 	 list-style: none;
  }
