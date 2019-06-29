@@ -23,6 +23,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font-family: Open Sans;
 	font-size: 100%;
 	vertical-align: baseline;
 }
@@ -357,20 +358,6 @@ p {
 	background-size: cover;
 	padding: 150px 0 100px 0;
 }
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-textarea:focus,
-textarea.form-control:focus {
-	outline: 0;
-	background: #FFFFFF;
-    border: 1px solid #111;
-    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
-}
-
-input[type="text"]:-moz-placeholder, input[type="email"]:-moz-placeholder, textarea:-moz-placeholder, textarea.form-control:-moz-placeholder { color: rgb(85, 85, 85); }
-input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder, textarea.form-control:-ms-input-placeholder { color: rgb(85, 85, 85); }
-input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder, textarea.form-control::-webkit-input-placeholder { color: rgb(85, 85, 85); }
 
 @media only screen and (max-width: 991px) {}
 
