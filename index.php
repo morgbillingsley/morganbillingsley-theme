@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-    <div class="main app form" id="contact">
-        <div class="image-bg">
+    <div class="main app form" id="main">
+        <div class="image-bg h-50">
             <div class="hero-section">
                 <div class="container nopadding">
                     <div class="col-md-12 center">
