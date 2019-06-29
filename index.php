@@ -7,7 +7,6 @@
                         <div class="hero-content">
                             <h1 class="wow fadeInUp" data-wow-delay="0.1s">Contact Me</h1>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">And ler's get to work on your next project.</p>
-                            <button class="btn btn-primary btn-action btn-fill" onclick="window.open('#'); fbq('track', 'Contact');">Build My Site</button>
                         </div>
                     </div>
                 </div>
@@ -16,7 +15,10 @@
     </div>
     <section class="m-4">
 
-        <p class="text-center w-responsive mx-auto mb-5">Have a question? Please don't hesitate to contact me using the form below. I will be happy to give you a free consultation and answer any questions you may have. I look forward to speaking with you.</p>
+        <p class="text-center w-responsive mx-auto mb-5">Have a question? Please don't hesitate to contact me using the form below.<br>
+            I will be happy to give you a free consultation and answer any questions you may have.<br>
+            I look forward to speaking with you.
+        </p>
 
         <div class="row">
 
