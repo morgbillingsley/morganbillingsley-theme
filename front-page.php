@@ -23,7 +23,7 @@
                     <div class="col-md-4 col-sm-6 pb-4">
                         <div class="card">
                             <div class="card-body text-center">
-                            <i class="material-icons text-primary" style="font-size: 68px;">desktop-windows</i>
+                            <i class="material-icons text-primary" style="font-size: 68px;">desktop_windows</i>
                                 <h5 class="card-title">Desktop Applications</h5>
                                 <p class="card-text">A desktop app can be excellent for marketability, but even better for internal use.</p>
                             </div>
