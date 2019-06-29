@@ -1319,43 +1319,40 @@ font-size: 12px;
  }
 
  .comments{
-	border:1px #ccc solid;
-	padding:10px;
-	margin-bottom:20px;
-	margin-top:10px;
+	border: none;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
   }
   
   .comments h3,.comments h2{
-	background:#428bca;
-	color:#fff;
-	padding:5px;
+	background: #428bca;
+	color: #fff;
+	padding: 5px;
   }
   
   .comment-body{
-	border:#ccc solid 1px;
-	margin-bottom:10px;
-	padding:20px 10px;
+	border: #ccc solid 1px;
+	margin-bottom: 10px;
+	padding: 20px 10px;
   }
   
   .comment-meta{
-	background:#428bca;
-	color:#fff;
-	padding:10px;
-	overflow:auto;
+	color: #fff;
+	padding: 10px;
+	overflow: auto;
   }
   
-  .comment-meta a{
-	color:#fff;
+  .comment-metadata{
+	font-size: 10px;
+	float: right;
   }
   
   .comment-meta img{
-	float:left;
-	margin-right:10px;
+	float: left;
+	margin-right: 10px;
   }
-  
-  .comment-reply-link{
-	background:#428bca;
-	color:#fff;
+
+  .comment-reply-link {
 	display: inline-block;
-	padding: 10px 15px;
   }
