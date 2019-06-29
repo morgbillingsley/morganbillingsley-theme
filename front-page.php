@@ -123,7 +123,7 @@
                 <div class="row nopadding">
                     <div class="pricing-intro text-center mx-auto">
                         <h1 class="wow fadeInUp" data-wow-delay="0s">For Custom Plans</h1>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s"> Please <a href="<?php echo get_post_permalink(8); ?>">contact me</a></p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s"> Please <a href="<?php echo get_permalink(8); ?>">contact me</a></p>
                     </div>
                 </div>
             </div>

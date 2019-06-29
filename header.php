@@ -68,7 +68,7 @@
 
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="<?php get_home_url(); ?>">Home
+                        <a class="nav-link" href="http://morganbillingsley.com/">Home
                         <span class="sr-only">(current)</span>
                         </a>
                     </li>
@@ -76,7 +76,7 @@
                         <a class="nav-link" href="#">My Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php get_post_permalink(8); ?>">Contact</a>
+                        <a class="nav-link" href="<?php echo get_permalink(8); ?>">Contact</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Content</a>
