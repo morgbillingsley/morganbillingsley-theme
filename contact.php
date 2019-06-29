@@ -20,10 +20,9 @@
     </div>
     <section class="m-4">
 
-        <p class="text-center w-responsive mx-auto mb-5">Have a question? Please don't hesitate to contact me using the form below.<br>
-            I will be happy to give you a free consultation and answer any questions you may have.<br>
-            I look forward to speaking with you.
-        </p>
+    <div class="alert alert-primary" role="alert">
+        Have a question? Fill out the form below and I will get back to you A.S.A.P. <a href="#" class="alert-link">Go back to homepage</a>.
+    </div>
 
         <div class="row">
 
