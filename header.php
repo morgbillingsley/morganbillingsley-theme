@@ -82,11 +82,11 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Content</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <h6 class="dropdown-header">Dropdown header</h6>
+                            <h5 class="dropdown-header">Categories</h5>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Machine Learning</a>
-                            <a class="dropdown-item" href="#">Programming</a>
-                            <a class="dropdown-item" href="#">Blockchain</a>
+                            <a class="dropdown-item mt-2 mb-2" href="#"><i class="icon ion-ios-cog"></i> Machine Learning</a>
+                            <a class="dropdown-item mt-2 mb-2" href="#"><i class="icon ion-ios-laptop"></i> Programming</a>
+                            <a class="dropdown-item mt-2 mb-2" href="#"><i class="icon ion-ios-cube"></i> Blockchain</a>
                         </div>
                     </li>
                 </ul>
