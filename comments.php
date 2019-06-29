@@ -1,4 +1,4 @@
-<div class="comments col-md-8 mx-auto">
+<div class="comments col-md-8">
     <?php $args = array(
         'walker'            => null,
         'max_depth'         => '',
@@ -23,8 +23,8 @@
         $comments_args = array(
                 'class_submit'          => 'btn btn-primary mt-2 mb-4',
                 'label_submit'          => 'Send',
-                'title_reply_before'    => '<h4 class="text-center">',
-                'title_reply'           => 'Write a Reply or Comment',
+                'title_reply_before'    => '',
+                'title_reply'           => '',
                 'title_reply_after'     => '</h4>',
                 'comment_notes_before'  => '',
                 'comment_notes_after'   => '',
@@ -32,7 +32,7 @@
                 'fields'                => array(
                     'author'    => '<div class="row"><div class="col-md-6"><p class="comment-form-author form-group"><input class="form-control" type="text" id="author" name="author" value size="30" maxlength="100" placeholder="Name" require="required"></p></div>',
                     'email'     => '<div class="col-md-6"><p class="comment-form-email form-group"><input class="form-control" type="email" id="email" name="email" value size="30" maxlength="100" placeholder="Email" require="required"></p></div></div>',
-                    'cookies'   => '<div class="row"><div class="col-md-12"><p class="form-group"><input id="wp-comment-cookies-consent form-check-input" name="wp-comment-cookies-consent" type="checkbox" value="yes"></p></div></div>'
+                    'cookies'   => '<div class="row"><div class="col-md-12"><p class="form-group"><input id="wp-comment-cookies-consent form-check-input" name="wp-comment-cookies-consent" type="checkbox" value="yes"><label for="wp-comment-cookies-consent"> Remember me</label></p></div></div>'
                 )
         );
         comment_form($comments_args);
