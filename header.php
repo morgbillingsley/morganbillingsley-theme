@@ -76,7 +76,7 @@
                         <a class="nav-link" href="#">My Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php get_permalink(8); ?>">Contact</a>
+                        <a class="nav-link" href="<?php get_post_permalink(8); ?>">Contact</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Content</a>
