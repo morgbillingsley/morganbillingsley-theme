@@ -81,10 +81,12 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Content</a>
-                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Machine Learning</a>
-                        <a class="dropdown-item" href="#">Programming</a>
-                        <a class="dropdown-item" href="#">Blockchain</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <h6 class="dropdown-header">Dropdown header</h6>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Machine Learning</a>
+                            <a class="dropdown-item" href="#">Programming</a>
+                            <a class="dropdown-item" href="#">Blockchain</a>
                         </div>
                     </li>
                 </ul>
