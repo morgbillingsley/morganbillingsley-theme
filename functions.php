@@ -16,20 +16,20 @@
         $menu = array();
         foreach ($array_menu as $m) {
             if (empty($m->menu_item_parent)) {
-                $menu[$m->title] = array();
-                $menu[$m->title]['ID']         =   $m->ID;
-                $menu[$m->title]['label']      =   $m->title;
-                $menu[$m->title]['url']        =   $m->url;
-                $menu[$m->title]['children']   =   array();
+                $menu[$m->id] = array();
+                $menu[$m->id]['ID']         =   $m->ID;
+                $menu[$m->id]['label']      =   $m->title;
+                $menu[$m->id]['url']        =   $m->url;
+                $menu[$m->id]['children']   =   array();
             }
         }
         $submenu = array();
         foreach ($array_menu as $m) {
             if ($m->menu_item_parent) {
-                $submenu[$m->title] = array();
-                $submenu[$m->title]['ID']       =   $m->ID;
-                $submenu[$m->title]['label']    =   $m->title;
-                $submenu[$m->title]['url']  =   $m->url;
+                $submenu[$m->id] = array();
+                $submenu[$m->id]['ID']       =   $m->ID;
+                $submenu[$m->id]['label']    =   $m->title;
+                $submenu[$m->id]['url']      =   $m->url;
                 $menu[$m->menu_item_parent]['children'][$m->title] = $submenu[$m->title];
             }
         }
