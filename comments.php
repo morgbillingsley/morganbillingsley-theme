@@ -1,4 +1,4 @@
-<div class="comments col-md-8">
+<div class="comments col-md-12">
     <?php $args = array(
         'walker'            => null,
         'max_depth'         => '',
