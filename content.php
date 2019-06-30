@@ -2,15 +2,15 @@
     <div class="col-md-8">
         <?php if(have_posts()) : ?>
             <?php while(have_posts()) : the_post(); ?>
-                <div class="card mb-4">
+                <div class="card mb-4 text-decoration-none">
                     <?php if(has_post_thumbnail()) : ?>
                         <img class="card-img-top" src="<?php the_post_thumbnail_url('full'); ?>">
                     <?php else : ?>
                         <img class="card-img-top" src="https://via.placeholder.com/1200x700">
                     <?php endif; ?>
                     <div class="card-body">
-                        <div class=""><?php the_category(' '); ?></div>
-                        <a class="text-decoration-none text-black" href="<?php the_permalink(); ?>"><h4 class="card-title text-center"><?php the_title(); ?></h4></a>
+                        <div class="text-center m-1"><small><?php the_category(' '); ?></small></div>
+                        <a class="text-decoration-none text-dark" href="<?php the_permalink(); ?>"><h4 class="card-title text-center"><?php the_title(); ?></h4></a>
                         <p class="card-text"><?php the_excerpt(); ?></p>
                     </div>
                 </div>
