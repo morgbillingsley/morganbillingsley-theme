@@ -116,27 +116,24 @@
             <div class="collapse navbar-collapse" id="basicExampleNav">
 
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="http://morganbillingsley.com/">Home
-                        <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">My Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?php echo get_permalink(8); ?>">Contact</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Content</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <h5 class="dropdown-header">Categories</h5>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item mt-2 mb-2" href="#">Machine Learning</a>
-                            <a class="dropdown-item mt-2 mb-2" href="#">Programming</a>
-                            <a class="dropdown-item mt-2 mb-2" href="#">Blockchain</a>
-                        </div>
-                    </li>
+                    <?php foreach($menu as $item) : ?>
+                        <?php if(empty($item['children'])) : ?>
+                            <li class="nav-item">
+                                <a class="nav-link" href="<?php echo $item['url']; ?>"><?php echo $item['label']; ?></a>
+                            </li>
+                        <?php else : ?>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $item['label']; ?></a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <h5 class="dropdown-header"><?php echo $item['label']; ?></h5>
+                                    <div class="dropdown-divider"></div>
+                                    <?php foreach($item['children'] as $subitem) : ?>
+                                        <a class="dropdown-item mt-2 mb-2" href="<?php echo $subitem['url']; ?>"><?php $subitem['label'] ?></a>
+                                    <?php endforeach; ?>
+                                </div>
+                            </li>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
                 </ul>
 
                 <?php get_search_form(); ?>
