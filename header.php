@@ -100,7 +100,7 @@
             foreach($menu as $item) {
                 echo $item['label'];
                 echo '<br>';
-                if($item[children]) {
+                if($item['children']) {
                     echo 'yes';
                 }
             }
