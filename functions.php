@@ -59,4 +59,11 @@
         }
         curl_close($po);
     }
+
+    function wpdocs_excerpt_more( $more ) {
+        return '';
+    }
+
+    // Filters
+    add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );    
 ?>
