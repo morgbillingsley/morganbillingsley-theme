@@ -102,9 +102,6 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="basicExampleNav">
-
             <?php
                 wp_nav_menu( array(
                     'menu'              => 'primary',
@@ -112,13 +109,11 @@
                     'depth'             => 2,
                     'container'         => 'div',
                     'container_class'   => 'collapse navbar-collapse',
-                    'container_id'      => 'bs-example-navbar-collapse-1',
-                    'menu_class'        => 'nav navbar-nav'
+                    'container_id'      => 'basicExampleNav',
+                    'menu_class'        => 'navbar-nav mr-auto'
                 ));
             ?>
 
                 <?php get_search_form(); ?>
-
-            </div>
 
         </nav>
