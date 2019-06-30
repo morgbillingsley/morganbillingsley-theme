@@ -12,7 +12,7 @@
     ));
 
     function get_menu($name) {
-        $array_menu = wp_get_nav_menu_items($current_menu);
+        $array_menu = wp_get_nav_menu_items($name);
         $menu = array();
         foreach ($array_menu as $m) {
             if (empty($m->menu_item_parent)) {
