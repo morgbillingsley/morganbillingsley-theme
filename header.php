@@ -96,15 +96,6 @@
 
         </nav>
         <?php $menu = get_menu('primary'); ?>
-        <?php 
-            foreach($menu as $item) {
-                echo $item['label'];
-                echo '<br>';
-                if($item['children']) {
-                    echo $item['children']['label'];
-                }
-            }
-        ?>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary nav-shadow">
 
             <a class="navbar-brand" href="#">MorganBillingsley</a>
@@ -121,14 +112,14 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="<?php echo $item['url']; ?>"><?php echo $item['label']; ?></a>
                             </li>
-                        <?php elseif($item['children']) : ?>
+                        <?php else : ?>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $item['label']; ?></a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <h5 class="dropdown-header"><?php echo $item['label']; ?></h5>
                                     <div class="dropdown-divider"></div>
                                     <?php foreach($item['children'] as $child) : ?>
-                                        <a class="dropdown-item mt-2 mb-2" href="<?php echo $child['url']; ?>"><?php $child['label']; ?></a>
+                                        <a class="dropdown-item mt-2 mb-2" href="<?php echo $child['url']; ?>"><?php echo $child['label']; ?></a>
                                     <?php endforeach; ?>
                                 </div>
                             </li>
