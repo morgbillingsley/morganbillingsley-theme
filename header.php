@@ -110,7 +110,8 @@
                     'container'         => 'div',
                     'container_class'   => 'collapse navbar-collapse',
                     'container_id'      => 'basicExampleNav',
-                    'menu_class'        => 'navbar-nav mr-auto'
+                    'menu_class'        => 'navbar-nav mr-auto',
+                    'items_wrap'      => '<ul class="list-item">%3$s</ul>'
                 ));
             ?>
 
