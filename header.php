@@ -99,6 +99,10 @@
         <?php 
             foreach($menu as $item) {
                 echo $item['label'];
+                echo '<br>';
+                if($item[children]) {
+                    echo 'yes';
+                }
             }
         ?>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary nav-shadow">
