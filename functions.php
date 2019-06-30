@@ -15,9 +15,9 @@
         $array_menu = wp_get_nav_menu_items($name);
         $menu = array();
         foreach ($array_menu as $m) {
-            if (empty($m->menu_item_parent)) {
+            if ($m->menu_item_parent == 0) {
                 $menu[$m->ID] = array();
-                $menu[$m->ID]['id'] =   $m->ID;
+                $last_id =   $m->ID;
                 $menu[$m->ID]['title'] =   $m->title;
                 $menu[$m->ID]['url'] =   $m->url;
                 $menu[$m->ID]['children'] =   array();
