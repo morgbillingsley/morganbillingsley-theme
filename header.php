@@ -95,6 +95,8 @@
             </div>
 
         </nav>
+        <?php $menu = get_menu('primary'); ?>
+        <?php echo $menu; ?>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary nav-shadow">
 
             <a class="navbar-brand" href="#">MorganBillingsley</a>
@@ -102,19 +104,35 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <?php
-                wp_nav_menu( array(
-                    'menu'              => 'primary',
-                    'theme_location'    => 'primary',
-                    'depth'             => 2,
-                    'container'         => 'div',
-                    'container_class'   => 'collapse navbar-collapse',
-                    'container_id'      => 'basicExampleNav',
-                    'menu_class'        => 'navbar-nav mr-auto',
-                    'items_wrap'      => '<ul class="list-item">%3$s</ul>'
-                ));
-            ?>
+
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http://morganbillingsley.com/">Home
+                        <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo get_permalink(8); ?>">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Content</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <h5 class="dropdown-header">Categories</h5>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item mt-2 mb-2" href="#">Machine Learning</a>
+                            <a class="dropdown-item mt-2 mb-2" href="#">Programming</a>
+                            <a class="dropdown-item mt-2 mb-2" href="#">Blockchain</a>
+                        </div>
+                    </li>
+                </ul>
 
                 <?php get_search_form(); ?>
+
+            </div>
 
         </nav>
