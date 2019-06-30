@@ -1,9 +1,7 @@
 <?php get_header(); ?>
     <div class="container">
         <div class="text-center p-5">
-            <?php if(is_category()) : ?>
-                <h1><?php echo single_cat_title(); ?></h1>
-            <?php endif; ?> 
+            <h1><?php single_post_title(); ?></h1>
         </div>
         <?php get_template_part('content'); ?>
     </div>
