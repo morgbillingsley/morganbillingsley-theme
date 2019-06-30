@@ -9,7 +9,7 @@
                         <img class="card-img-top" src="https://via.placeholder.com/1200x700">
                     <?php endif; ?>
                     <div class="card-body">
-                        <p class="text-center m-1"><small><?php get_category_link(); ?></small></p>
+                        <p class="text-center m-1"><small><?php the_category(); ?></small></p>
                         <a class="text-decoration-none text-black" href="<?php the_permalink(); ?>"><h4 class="card-title text-center"><?php the_title(); ?></h4></a>
                         <p class="card-text"><?php the_excerpt(); ?></p>
                     </div>
