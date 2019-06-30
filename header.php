@@ -128,7 +128,7 @@
                                     <h5 class="dropdown-header"><?php echo $item['label']; ?></h5>
                                     <div class="dropdown-divider"></div>
                                     <?php foreach($item['children'] as $subitem) : ?>
-                                        <a class="dropdown-item mt-2 mb-2" href="<?php echo $subitem['url']; ?>"><?php $subitem['label'] ?></a>
+                                        <a class="dropdown-item mt-2 mb-2" href="<?php echo $subitem['url']; ?>"><?php $subitem['label']; ?></a>
                                     <?php endforeach; ?>
                                 </div>
                             </li>
