@@ -95,3 +95,40 @@
             </div>
 
         </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary nav-shadow">
+
+            <a class="navbar-brand" href="#">MorganBillingsley</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+
+            <?php
+                wp_nav_menu( array(
+                    'menu'            => '',
+                    'container'       => 'div',
+                    'container_class' => '',
+                    'container_id'    => '',
+                    'menu_class'      => 'navbar-nav mr-auto',
+                    'menu_id'         => '',
+                    'echo'            => true,
+                    'fallback_cb'     => 'wp_page_menu',
+                    'before'          => '',
+                    'after'           => '',
+                    'link_before'     => '',
+                    'link_after'      => '',
+                    'items_wrap'      => '<li class="list-item">%3$s</li>',
+                    'item_spacing'    => '',
+                    'depth'           => 0,
+                    'walker'          => '',
+                    'theme_location'  => 'primary',
+                );
+            ?>
+
+                <?php get_search_form(); ?>
+
+            </div>
+
+        </nav>
