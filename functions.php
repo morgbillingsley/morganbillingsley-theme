@@ -28,7 +28,7 @@
             if ($m->menu_item_parent) {
                 $submenu[$m->ID] = array();
                 $submenu[$m->ID]['ID']       =   $m->ID;
-                $submenu[$m->ID]['title']    =   $m->title;
+                $submenu[$m->ID]['label']    =   $m->title;
                 $submenu[$m->ID]['url']  =   $m->url;
                 $menu[$m->menu_item_parent]['children'][$m->ID] = $submenu[$m->ID];
             }
