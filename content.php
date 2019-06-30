@@ -4,13 +4,13 @@
             <?php while(have_posts()) : the_post(); ?>
                 <div class="card mb-4 text-decoration-none">
                     <?php if(has_post_thumbnail()) : ?>
-                        <img class="card-img-top" src="<?php the_post_thumbnail_url('full'); ?>">
+                        <a href="<?php the_permalink(); ?>"><img class="card-img-top" src="<?php the_post_thumbnail_url('full'); ?>"></a>
                     <?php else : ?>
-                        <img class="card-img-top" src="https://via.placeholder.com/1200x700">
+                        <a href="<?php the_permalink(); ?>"><img class="card-img-top" src="https://via.placeholder.com/1200x700"></a>
                     <?php endif; ?>
                     <div class="card-body">
                         <div class="text-center m-1"><small><?php the_category(' '); ?></small></div>
-                        <a class="text-decoration-none text-dark" href="<?php the_permalink(); ?>"><h4 class="card-title text-center"><?php the_title(); ?></h4></a>
+                        <a class="text-dark" href="<?php the_permalink(); ?>"><h4 class="card-title text-center"><?php the_title(); ?></h4></a>
                         <p class="card-text"><?php the_excerpt(); ?></p>
                     </div>
                 </div>
