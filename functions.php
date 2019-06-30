@@ -6,6 +6,11 @@
     add_action('admin_post_nopriv_contact', 'contact_proc');
     add_action('admin_post_contact', 'contact_proc');
 
+    // Nav Menus
+    register_nav_menus(array(
+        'primary' => __('Primary Menu')
+    ));
+
     // Functions
     function contact_proc() {
         // Post data
