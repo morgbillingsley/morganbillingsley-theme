@@ -25,7 +25,7 @@
     </div>
 <div class="col-md-4">
     <div class="card mb-4">
-        <img class="card-img-top" src="<?php bloginfo('template_url'); ?>/images/profile-bg.jpg" alt="Card image cap">
+        <img class="card-img-top" src="<?php bloginfo('template_url'); ?>/images/profile-bg.jpeg" alt="Card image cap">
         <div class="prof-wrapper text-center">
             <img class="prof-pic" src="https://morganbillingsley.com/wp-content/themes/morganbillingsley/images/me.jpeg">
         </div>
