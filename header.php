@@ -109,16 +109,9 @@
                 <ul class="navbar-nav mr-auto">
                     <?php foreach($menu as $item) : ?>
                         <?php if(empty($item['children'])) : ?>
-                            <?php if(single_post_title() == $item['label']) : ?>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="<?php echo $item['url']; ?>"><?php echo $item['label']; ?></a>
-                                    <span class="sr-only">(current)</span>
-                                </li>
-                            <?php else : ?>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo $item['url']; ?>"><?php echo $item['label']; ?></a>
-                                </li>
-                            <?php endif; ?>
+                            <li class="nav-item">
+                                <a class="nav-link" href="<?php echo $item['url']; ?>"><?php echo $item['label']; ?></a>
+                            </li>
                         <?php else : ?>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $item['label']; ?></a>
