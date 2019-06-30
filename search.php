@@ -4,8 +4,8 @@
 */
 ?>
 <?php get_header(); ?>
-    <div class="col-md-8">
-        <div class="row">
+    <div class="row">
+        <div class="col-md-8">
             <ul class="list-unstyled">
                 <?php if(have_posts()) : ?>
                     <?php while(have_posts()) : the_post(); ?>
