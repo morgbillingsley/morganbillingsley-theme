@@ -33,6 +33,11 @@
                             <hr>
 
                             <?php comments_template(); ?>
+                            <?php if(have_comments()) : ?>
+                                <?php while(have_comments()) : the_comment(); ?>
+                                    <h1><?php get_comment_author(); ?></h1>
+                                <? endwhile; ?>
+                            <? endif; ?>
                         </div>
                     </div>
                 </div>

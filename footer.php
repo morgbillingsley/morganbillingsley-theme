@@ -2,7 +2,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-7">
-                            <a class="navbar-brand" href="#main"><h1>Morgan<strong>Billingsley</strong></h1></a><br><br><br>
+                            <a class="navbar-brand" href="#main"><h1>Morgan<strong>Billingsley</strong></h1></a>
+                            <br>
                             <p> Please carefully read all of my terms and conditions + privacy policy before signing up and/or using my services.</p>
                             <div class="footer-text">
                                 <p> Copyright &copy <?php echo date('Y'); ?> Morgan Billingsley. All Rights Reserved.</p>
