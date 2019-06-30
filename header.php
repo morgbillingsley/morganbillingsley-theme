@@ -107,24 +107,14 @@
 
             <?php
                 wp_nav_menu( array(
-                    'menu'            => '',
-                    'container'       => 'div',
-                    'container_class' => '',
-                    'container_id'    => '',
-                    'menu_class'      => 'navbar-nav mr-auto',
-                    'menu_id'         => '',
-                    'echo'            => true,
-                    'fallback_cb'     => 'wp_page_menu',
-                    'before'          => '',
-                    'after'           => '',
-                    'link_before'     => '',
-                    'link_after'      => '',
-                    'items_wrap'      => '<li class="list-item">%3$s</li>',
-                    'item_spacing'    => '',
-                    'depth'           => 0,
-                    'walker'          => '',
-                    'theme_location'  => 'primary',
-                );
+                    'menu'              => 'primary',
+                    'theme_location'    => 'primary',
+                    'depth'             => 2,
+                    'container'         => 'div',
+                    'container_class'   => 'collapse navbar-collapse',
+                    'container_id'      => 'bs-example-navbar-collapse-1',
+                    'menu_class'        => 'nav navbar-nav'
+                ));
             ?>
 
                 <?php get_search_form(); ?>
