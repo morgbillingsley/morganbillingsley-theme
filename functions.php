@@ -21,7 +21,7 @@
                     'url' => $m->url
                 );
             } else {
-                $menu[$m->menu_item_parent]['children'] = array(
+                $menu[$m->menu_item_parent]['children'][$m->ID] = array(
                     'label' => $m->title,
                     'url'   => $m->url
                 );
