@@ -16,11 +16,12 @@
                 </div>
             <?php endwhile; ?>
         <?php else : ?>
-            <div class="card">
-                <div class="card-body">
-                    <p>There are no posts that match this query. Please check the url bar and try again.</p>
-                </div>
-            </div>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Uh Oh!</strong> There are no posts that match your query. Please check the url and try again.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
         <?php endif; ?>
     </div>
 <div class="col-md-4">
