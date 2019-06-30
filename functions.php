@@ -16,9 +16,10 @@
         $menu = array();
         foreach ($array_menu as $m) {
             if ($m->menu_item_parent == 0) {
-                $menu[$m->ID] = array();
-                $menu[$m->ID]['label'] = $m->title;
-                $menu[$m->ID]['url'] = $m->url;
+                $menu[$m->ID] = array(
+                    'label' => $m->title,
+                    'url' => $m->url
+                );
             } else {
                 $menu[$m->menu_item_parent]['children'] = array(
                     'label' => $m->title,
