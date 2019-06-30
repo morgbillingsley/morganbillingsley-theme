@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <div class="container">
         <div class="text-center p-4">
-            <h1><?php get_the_title(); ?></h1>
+            <h1><?php echo get_the_title(); ?></h1>
         </div>
         <div class="row">
             <div class="col-md-8">
