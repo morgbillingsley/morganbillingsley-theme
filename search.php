@@ -4,7 +4,10 @@
 */
 ?>
 <?php get_header(); ?>
-    <div class="container">
+    <div class="container mb-4">
+        <div class="text-center p-5">
+            <h1>Search Results</h1>
+        </div>
         <div class="row">
             <div class="col-md-8">
                 <ul class="list-unstyled">

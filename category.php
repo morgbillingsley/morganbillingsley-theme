@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <div class="container">
+    <div class="container mb-4">
         <div class="text-center p-5">
             <h1><?php single_cat_title(); ?></h1>
         </div>
