@@ -17,12 +17,10 @@
         foreach ($array_menu as $m) {
             if ($m->menu_item_parent == 0) {
                 $menu[$m->ID] = array();
-                $last_id =   $m->ID;
                 $menu[$m->ID]['label'] =   $m->title;
                 $menu[$m->ID]['url'] =   $m->url;
                 $menu[$m->ID]['children'] =   array();
             } else {
-                $menu[$m->menu_item_parent]['children']['id'] = $m->ID;
                 $menu[$m->menu_item_parent]['children']['label'] = $m->title;
                 $menu[$m->menu_item_parent]['children']['url'] = $m->url;
             }
