@@ -18,7 +18,7 @@
             if ($m->menu_item_parent == 0) {
                 $menu[$m->ID] = array();
                 $last_id =   $m->ID;
-                $menu[$m->ID]['title'] =   $m->title;
+                $menu[$m->ID]['label'] =   $m->title;
                 $menu[$m->ID]['url'] =   $m->url;
                 $menu[$m->ID]['children'] =   array();
             } else {
