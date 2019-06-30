@@ -12,25 +12,25 @@
     ));
 
     function get_menu($name) {
-        $array_menu = wp_get_nav_menu_items($name);
+        $array_menu = wp_get_nav_menu_items($current_menu);
         $menu = array();
         foreach ($array_menu as $m) {
-            if ($m->menu_item_parent == null) {
-                $menu[$m->id] = array();
-                $menu[$m->id]['ID']         =   $m->ID;
-                $menu[$m->id]['label']      =   $m->title;
-                $menu[$m->id]['url']        =   $m->url;
-                $menu[$m->id]['children']   =   array();
+            if (empty($m->menu_item_parent)) {
+                $menu[$m->ID] = array();
+                $menu[$m->ID]['ID']      =   $m->ID;
+                $menu[$m->ID]['title']       =   $m->title;
+                $menu[$m->ID]['url']         =   $m->url;
+                $menu[$m->ID]['children']    =   array();
             }
         }
         $submenu = array();
         foreach ($array_menu as $m) {
-            if ($m->menu_item_parent != null) {
-                $submenu[$m->id] = array();
-                $submenu[$m->id]['ID']       =   $m->ID;
-                $submenu[$m->id]['label']    =   $m->title;
-                $submenu[$m->id]['url']      =   $m->url;
-                $menu[$m->menu_item_parent]['children'][$m->title] = $submenu[$m->title];
+            if ($m->menu_item_parent) {
+                $submenu[$m->ID] = array();
+                $submenu[$m->ID]['ID']       =   $m->ID;
+                $submenu[$m->ID]['title']    =   $m->title;
+                $submenu[$m->ID]['url']  =   $m->url;
+                $menu[$m->menu_item_parent]['children'][$m->ID] = $submenu[$m->ID];
             }
         }
         return $menu;
