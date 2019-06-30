@@ -109,8 +109,8 @@
                 <ul class="navbar-nav mr-auto">
                     <?php foreach($menu as $item) : ?>
                         <?php if(empty($item['children'])) : ?>
-                            <li class="nav-item">
-                                <a class="nav-link <?php if(single_post_title() == $item['label']) {echo 'active';} ?>" href="<?php echo $item['url']; ?>"><?php echo $item['label']; ?></a>
+                            <li class="nav-item <?php if(single_post_title() == $item['label']) {echo 'active';} ?>">
+                                <a class="nav-link" href="<?php echo $item['url']; ?>"><?php echo $item['label']; ?></a>
                             </li>
                         <?php else : ?>
                             <li class="nav-item dropdown">
