@@ -96,7 +96,7 @@
 
         </nav>
         <?php $menu = get_menu('primary'); ?>
-        <?php echo $menu[1]; ?>
+        <?php echo $menu['primary']; ?>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary nav-shadow">
 
             <a class="navbar-brand" href="#">MorganBillingsley</a>
