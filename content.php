@@ -28,7 +28,7 @@
     <div class="card mb-4">
         <img class="card-img-top" src="<?php bloginfo('template_url'); ?>/images/profile-bg.jpeg" alt="Card image cap">
         <div class="prof-wrapper text-center">
-            <img class="prof-pic" src="https://morganbillingsley.com/wp-content/themes/morganbillingsley/images/me.jpeg">
+            <img class="prof-pic" src="<?php bloginfo('template_url'); ?>/images/me.jpeg">
         </div>
         <div class="card-body prof-pad">
             <p class="card-text text-center">I am Morgan Billingsley, software developer and technology enthusiast. Take a look at some of the content myself and others have written to entertain and educate our users.</p>

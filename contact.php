@@ -25,7 +25,7 @@
             <div class="container">
 
             <div class="alert alert-primary mb-2" role="alert">
-                Have a question? Fill out the form below and I will get back to you A.S.A.P. <a href="#" class="alert-link">Go back to homepage</a>.
+                Have a question? Fill out the form below and I will get back to you A.S.A.P. <a href="<?php bloginfo('url'); ?>" class="alert-link">Go back to homepage</a>.
             </div>
 
                 <form action="<?php echo esc_url(admin_url("admin-post.php")); ?>" method="POST">
