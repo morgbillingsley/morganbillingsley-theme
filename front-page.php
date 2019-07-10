@@ -7,7 +7,7 @@
                         <div class="hero-content">
                             <h1 class="wow fadeInUp" data-wow-delay="0.1s">Morgan Billingsley Software Development</h1>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">Building powerful, interactive applications using advanced technology <br class="hidden-xs">and expert design.</p>
-                            <button class="btn btn-primary btn-action btn-fill" onclick="window.open('<?php echo get_permalink(8); ?>'); fbq('track', 'Contact');">Contact Me</button>
+                            <button class="btn btn-primary btn-action btn-fill" onclick="window.open('<?php echo get_permalink( get_page_by_path( 'contact' ) ) ?>'); fbq('track', 'Contact');">Contact Me</button>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                 <div class="pitch-intro">
                     <h1 class="wow fadeInDown" data-wow-delay="0.2s">Find out More</h1>
                     <p class="wow fadeInDown" data-wow-delay="0.2s"> If you need to know some more information, or you want to get started on your project, click the button below and let's get to work!</p><br>
-                    <button class="btn btn-primary btn-action btn-fill" onclick="window.open('<?php echo get_permalink(8); ?>'); fbq('track', 'Contact');">Contact Me</button>
+                    <button class="btn btn-primary btn-action btn-fill" onclick="window.open('<?php echo get_permalink( get_page_by_path( 'contact' ) ) ?>'); fbq('track', 'Contact');">Contact Me</button>
                 </div>
             </div>
         </div>
@@ -123,7 +123,7 @@
                 <div class="row nopadding">
                     <div class="pricing-intro text-center mx-auto">
                         <h1 class="wow fadeInUp" data-wow-delay="0s">For Custom Plans</h1>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s"> Please <a href="<?php echo get_permalink(8); ?>">contact me</a></p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s"> Please <a href="<?php echo get_permalink( get_page_by_path( 'contact' ) ) ?>">contact me</a></p>
                     </div>
                 </div>
             </div>
