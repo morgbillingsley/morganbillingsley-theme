@@ -59,7 +59,7 @@
         <?php $menu = get_menu('primary'); ?>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary nav-shadow">
 
-            <a class="navbar-brand" href="#">MorganBillingsley</a>
+            <a class="navbar-brand" href="<?php bloginfo('url'); ?>">MorganBillingsley</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
