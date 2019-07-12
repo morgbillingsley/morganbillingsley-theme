@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116911191-3"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143787458-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-116911191-3');
+        gtag('config', 'UA-143787458-1');
     </script>
-    <!-- Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,31 +30,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!-- Resource style -->
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" media="all" />
-
-    <!-- Facebook Pixel Code -->
-    <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '2254829784768274');
-        fbq('track', 'PageView');
-    </script>
     <?php wp_head(); ?>
 </head>
 <body>
-    <!-- Facebook Pixel Code -->
-    <script>
-    fbq('track', 'ViewContent', {
-    value: 1,
-    });
-    </script>
-    <!-- End Facebook Pixel Code -->
-
     <div class="wrapper">
         <?php $menu = get_menu('primary'); ?>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary nav-shadow">
