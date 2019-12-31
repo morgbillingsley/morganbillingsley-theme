@@ -1453,3 +1453,12 @@ font-size: 12px;
   .card a:hover {
 	  text-decoration: none;
   }
+
+/*
+  WordPress Post Styling
+*/
+pre.wp-block-code {
+    background: #efefef;
+    padding: 20px;
+    border-radius: 10px;
+}
